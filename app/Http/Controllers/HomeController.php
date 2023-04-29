@@ -23,6 +23,16 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        if(Auth::id())
+        {
+            if(auth::user()->usertype == '1')
+            {
+                return view('home');
+            }else{
+                return view('index');
+            }
+        } else{
+            return redirect()->back();
+        }
     }
 }
