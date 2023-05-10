@@ -33,8 +33,26 @@
               </span>
                 <span class="menu-title">Dashboard</span>
             </a>
+
         </li>
 
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="{{route('admin.roles.index')}}">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+                <span class="menu-title">Roles</span>
+            </a>
+        </li>
+
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="{{route('admin.permissions.index')}}">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+                <span class="menu-title">Permissions</span>
+            </a>
+        </li>
 
         <li class="nav-item menu-items">
             <a class="nav-link" href="{{url('adduser')}}">
@@ -72,14 +90,14 @@
             </a>
         </li>
 
-        <li class="nav-item menu-items">
-            <a class="nav-link" href="{{url('editblog')}}">
-              <span class="menu-icon">
-                <i class="mdi mdi-table-large"></i>
-              </span>
-                <span class="menu-title">Edit blog</span>
-            </a>
-        </li>
+{{--        <li class="nav-item menu-items">--}}
+{{--            <a class="nav-link" href="{{url('editblog')}}">--}}
+{{--              <span class="menu-icon">--}}
+{{--                <i class="mdi mdi-table-large"></i>--}}
+{{--              </span>--}}
+{{--                <span class="menu-title">Edit blog</span>--}}
+{{--            </a>--}}
+{{--        </li>--}}
 
         <li class="nav-item menu-items">
             <a class="nav-link" href="{{url('allcontact')}}">

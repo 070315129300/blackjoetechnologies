@@ -1,9 +1,10 @@
-@import url(global.css);
-
 .header {
 	text-align: center;
 
 	color: var(--white);
+}
+#hero1{
+    align-items: center;
 }
 #menu-icon {
 	display: none;
@@ -38,7 +39,6 @@ form input {
 	border: none;
 	outline: none;
 	padding: 12px;
-
 	border-radius: 10px;
 	width: 100%;
 }
@@ -61,14 +61,14 @@ input[type='file'] {
 	height: 40px;
 	outline: none;
 	border: none;
-	border-radius: 0.5rem;
-	background: #f6f9fd;
+	border-radius: 0.2rem;
+	/*background: #f6f9fd;*/
 	padding: 10px;
 	gap: 10px;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 19px;
-	color: var(--accent);
+	color: white;
 }
 #imageName {
 	color: #999999;
@@ -76,6 +76,7 @@ input[type='file'] {
 	line-height: 19px;
 	color: var(--accent);
 }
+
 @media (max-width: 60em) {
 	.header {
 		display: flex;

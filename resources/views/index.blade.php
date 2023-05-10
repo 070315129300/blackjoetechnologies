@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<body class="home page-template-default page page-id-9 wp-custom-logo no-sidebar" 
+
+<body class="home page-template-default page page-id-9 wp-custom-logo no-sidebar"
 >
     <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +10,7 @@
         width="0"
         height="0"
         focusable="false"
-        role="none" 
+        role="none"
         style="
             visibility: hidden;
             position: absolute;
@@ -327,26 +328,26 @@
                                 id="menu-item-19"
                                 class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-19"
                             >
-                                <a href="#capvest-presentation" class="olumenu" 
+                                <a href="#capvest-presentation" class="olumenu"
                                     ><span>BLACKJOE TECHNOLOGIES</span></a
                                 >
                             </li>
                             <style>
                                 .cv_header .cv_navigation ul li.dropdwn{
-                                    padding-top: 10px; 
+                                    padding-top: 10px;
                                     padding-bottom: 10px;
                                 }
                                 .cv_header .cv_navigation ul li{
-                                    padding-top: 20px; 
+                                    padding-top: 20px;
                                     padding-bottom: 20px;
                                 }
                                 .cv_header .cv_navigation ul li a.olumenu{
-                                    padding-top: 20px !important; 
-                                    padding-bottom: 20px !important; 
+                                    padding-top: 20px !important;
+                                    padding-bottom: 20px !important;
                                 }
                                 .sub-men{
                                     display: none !important;
-                                    
+
                                 }
                                 .drp:hover > .sub-men{
                                     display: block !important;
@@ -465,10 +466,10 @@
                                                 ></a
                                             >
                                         </li>
-                                        
-                                        
-                                        
-                                    </ul> 
+
+
+
+                                    </ul>
                             </li>
                             <li
                                 id="menu-item-21"
@@ -1262,46 +1263,7 @@
                                 action="/#wpcf7-f223-o1"
                                 method="post"
                                 class="wpcf7-form init"
-                                novalidate="novalidate"
-                                data-status="init"
                             >
-                                <div style="display: none">
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7"
-                                        value="223"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_version"
-                                        value="5.6.4"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_locale"
-                                        value="en_US"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_unit_tag"
-                                        value="wpcf7-f223-o1"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_container_post"
-                                        value="0"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_posted_data_hash"
-                                        value=""
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_recaptcha_response"
-                                        value=""
-                                    />
-                                </div>
                                 <div class="cv_contact_form_item">
                                     <span
                                         class="wpcf7-form-control-wrap"
@@ -1388,10 +1350,7 @@
                                         class="wpcf7-form-control has-spinner wpcf7-submit"
                                     />
                                 </div>
-                                <div
-                                    class="wpcf7-response-output"
-                                    aria-hidden="true"
-                                ></div>
+
                             </form>
                         </div>
                     </div>
