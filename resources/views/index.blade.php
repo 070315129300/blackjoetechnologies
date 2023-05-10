@@ -1,2145 +1,1486 @@
 @extends('layouts.app')
 
 @section('content')
-<body class="home page-template-default page page-id-9 wp-custom-logo no-sidebar" 
->
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none" 
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR
-                        type="table"
-                        tableValues="0 0.49803921568627"
-                    />
-                    <feFuncG
-                        type="table"
-                        tableValues="0 0.49803921568627"
-                    />
-                    <feFuncB
-                        type="table"
-                        tableValues="0 0.49803921568627"
-                    />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none"
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none"
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR
-                        type="table"
-                        tableValues="0.54901960784314 0.98823529411765"
-                    />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB
-                        type="table"
-                        tableValues="0.71764705882353 0.25490196078431"
-                    />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none"
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG
-                        type="table"
-                        tableValues="0 0.27843137254902"
-                    />
-                    <feFuncB
-                        type="table"
-                        tableValues="0.5921568627451 0.27843137254902"
-                    />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none"
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0" />
-                    <feFuncG
-                        type="table"
-                        tableValues="0 0.64705882352941"
-                    />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none"
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR
-                        type="table"
-                        tableValues="0.78039215686275 1"
-                    />
-                    <feFuncG
-                        type="table"
-                        tableValues="0 0.94901960784314"
-                    />
-                    <feFuncB
-                        type="table"
-                        tableValues="0.35294117647059 0.47058823529412"
-                    />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none"
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR
-                        type="table"
-                        tableValues="0.65098039215686 0.40392156862745"
-                    />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB
-                        type="table"
-                        tableValues="0.44705882352941 0.4"
-                    />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 0 0"
-        width="0"
-        height="0"
-        focusable="false"
-        role="none"
-        style="
-            visibility: hidden;
-            position: absolute;
-            left: -9999px;
-            overflow: hidden;
-        "
-    >
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <feColorMatrix
-                    color-interpolation-filters="sRGB"
-                    type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
-                />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR
-                        type="table"
-                        tableValues="0.098039215686275 1"
-                    />
-                    <feFuncG
-                        type="table"
-                        tableValues="0 0.66274509803922"
-                    />
-                    <feFuncB
-                        type="table"
-                        tableValues="0.84705882352941 0.41960784313725"
-                    />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg>
-    <header id="cv_header" class="cv_header">
-        <div class="container">
-            <div class="cv_header_row">
-                <div class="cv_header_col">
-                    <a
-                        href="https://thecapvestgroup.com/"
-                        class="custom-logo-link"
-                        rel="home"
-                        aria-current="page"
-                        ><img
-                            width="100"
-                            height="30"
-                            src="{{asset('images/blackjoe-logo.jpg')}}"
-                            class="custom-logo"
-                            alt="Real estate Group, development and management | Capvest Group"
-                            decoding="async"
-                    /></a>
-                </div>
-                <div class="cv_header_col">
-                    <nav id="cv_navigation" class="cv_navigation">
-                        <ul
-                            id="primary-menu"
-                            class="header_menu cv_menu_scroll"
-                        >
-                            <li
-                                id="menu-item-19"
-                                class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-19"
-                            >
-                                <a href="#capvest-presentation" class="olumenu" 
-                                    ><span>BLACKJOE TECHNOLOGIES</span></a
-                                >
-                            </li>
-                            <style>
-                                .cv_header .cv_navigation ul li.dropdwn{
-                                    padding-top: 10px; 
-                                    padding-bottom: 10px;
-                                }
-                                .cv_header .cv_navigation ul li{
-                                    padding-top: 20px; 
-                                    padding-bottom: 20px;
-                                }
-                                .cv_header .cv_navigation ul li a.olumenu{
-                                    padding-top: 20px !important; 
-                                    padding-bottom: 20px !important; 
-                                }
-                                .sub-men{
-                                    display: none !important;
-                                    
-                                }
-                                .drp:hover > .sub-men{
-                                    display: block !important;
-                                    position: absolute;
-                                    top: 63px;
-                                    width: 200px;
-                                    height: auto;
-                                    z-index: 9999;
-                                    background: white;
-                                    border-top: 5px solid grey;
-                                }
 
-                                .sub-men li{
-                                    padding-right: 20px !important;
-                                    padding-left: 20px !important;
+  <section id="hero-fullscreen" class="hero-fullscreen d-flex align-items-center">
+    <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
+      <h2>Welcome to <span>BlackJoe Technologies</span></h2>
+      <p>Tech Innovations At Its Peak</p>
+      <div class="d-flex">
+        <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
+        <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+      </div>
+    </div>
+  </section>
 
-                                }
-                            </style>
-                            <li
-                                id="menu-item-20"
-                                class="drp  menu-item menu-item-type-custom menu-item-object-custom menu-item-20"
-                            >
-                                <a href="#subsidiaries-presentation" class="olumenu">
-                                    <span>
-                                        PRODUCT AND SERVICES
-                                    </span>
-                                </a>
-                                     <ul class="sub-men" >
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#transportation"
-                                                class=""
-                                                ><span
-                                                    >Transportation</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#logistics"
-                                                class=""
-                                                ><span
-                                                    >Logistics</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#RentABus"
-                                                class=""
-                                                ><span
-                                                    >Rent a Bus</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#Shop4Me"
-                                                class=""
-                                                ><span
-                                                    >Shop4Me</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#MySchoolPal"
-                                                class=""
-                                                ><span
-                                                    >MySchoolPal</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#HouseFlip"
-                                                class=""
-                                                ><span
-                                                    >HouseFlip</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#CoRent"
-                                                class=""
-                                                ><span
-                                                    >Co-Rent</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#XProMarketPlace"
-                                                class=""
-                                                ><span
-                                                    >XProMarketPlace</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#Docs$Nurs"
-                                                class=""
-                                                ><span
-                                                    >Docs $ Nurs</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li id="" class="dropdwn">
-                                            <a
-                                                href="#SalezOnline"
-                                                class=""
-                                                ><span
-                                                    >Salez Online</span
-                                                ></a
-                                            >
-                                        </li>
-                                        
-                                        
-                                        
-                                    </ul> 
-                            </li>
-                            <li
-                                id="menu-item-21"
-                                class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-21"
-                            >
-                                <a href="{{url('/allblogs')}}" class="olumenu"><span>BLOG</span></a>
-                            </li>
-                            <li
-                                id="menu-item-22"
-                                class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-22"
-                            >
-                                <a href="#contact" class="olumenu"><span>CONTACT</span></a>
-                            </li>
-                            <!-- <li
-                                id="menu-item-wpml-ls-3-fr"
-                                class=" menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-fr wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-fr">
-                                <a class="olumenu"
-                                    title="Français"
-                                    href="https://thecapvestgroup.com/fr/"
-                                    ><span
-                                        ><span
-                                            class="wpml-ls-native"
-                                            lang="fr"
-                                            >Français</span
-                                        ></span
-                                    ></a
-                                >
-                            </li> -->
-                        </ul>
-                    </nav>
-                    <div class="mobile_menu">
-                        <span></span> <span></span> <span></span>
-                    </div>
-                </div>
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Innovation</a></h4>
+              <p>An environment that encourages creativity, experimentation, and risk-taking</p>
             </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Technology</a></h4>
+              <p>Offer tools, techniques, and methods used to create, develop, and improve products, services, and processes.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Diversity</a></h4>
+              <p>Our services cuts across different sectors</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Accessibility</a></h4>
+              <p>Our services can be accessible by everyone</p>
+            </div>
+          </div><!-- End Service Item -->
+
         </div>
-    </header>
-    <section class="cv_hero" style="background-image: url({{ asset('images/blackjoe-logo.jpg') }});" >
-        <div class="container">
-            <div class="cv_hero_row">
-                <div class="cv_hero_col">
-                    <!-- <h1 class="cv_hero_title">BLACKJOE TECHNOLOGIES</h1> -->
-                    <h2 class="cv_hero_text">
-                        Synergy in
-                        the world of technology
-                    </h2>
-                </div>
-                <div class="cv_menu_scroll">
-                    <a
-                        href="#capvest-presentation"
-                        class="cv_scroll_down"
-                    ></a>
-                </div>
-            </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <style></style>
+        <div class="section-header">
+          <h2>About Us</h2>
+          <!-- <p>Blackjoe Technologies was founded in 2019 by Agbi Joseph to build great tech companies from idea to IPO & beyond in Africa. Blackjoe Technologies was founded in 2019 by Agbi Joseph to build great tech companies from idea to IPO & beyond in Africa. Blackjoe Technologies was founded in 2019 by Agbi Joseph to build great tech companies from idea to IPO & beyond in Africa. Blackjoe Technologies was founded in 2019 by Agbi Joseph to build great tech companies from idea to IPO & beyond in Africa.</p> -->
+          <p class="about-p">BlackJoe Technologies is a leading technology company dedicated to creating innovative solutions that transform industries and improve lives.
+          Since founded, we have been at the forefront of technological innovation, developing cutting-edge products and services that are designed to solve complex problems and make a meaningful impact. Our team of experts is made up of the brightest minds in the industry, who are passionate about what they do and constantly seeking new ways to innovate. 
+          At BlackJoe Technologies, we believe in using technology for good, and we are committed to making a positive impact on the world. We work closely with our customers and partners to understand their unique needs and challenges, and we leverage our expertise to create customized solutions that meet their specific requirements. 
+          Looking for software solutions ? BlackJoe Technologies has the expertise and resources to help you succeed. Contact us today to learn more about our products services and how we can help you achieve your goals. </p>
         </div>
-    </section>
-    <section class="cv_presentation" id="capvest-presentation">
-        <div class="container">
-            <h2 class="cv_section_title">
-                Presentation of BlackJoe Technologies
-            </h2>
-            <div class="cv_presentation_row">
-                <div class="cv_presentation_col">
-                    <div class="cv_section_text">
-                        <p>
-                            The BlackJoe Technologies was founded by Joseph Agbi
-                            in 2001 with the assumed objective of becoming a
-                            recognized player in Technology in Nigeria
-                            and internationally as well as carrying a real
-                            technology of strong conviction with a high level of
-                            architectural requirement.
-                        </p>
-                        <p>
-                            Investor, developer, and manager, the BlackJoe Technolgies has thus developed and diversified by
-                            offering innovative concepts in residential,
-                            tertiary, school, medical, and in
-                            recent years as part of large residential or
-                            mixed urban operations at the scale of a
-                            district.
-                        </p>
-                        <p>
-                            With more than 20 employees spread across our
-                            offices in Lagos, Benin-City and Ogun state, BlackJoe Technologies
-                            develops ambitious and quality projects with a
-                            view to creating value and sustainability; a
-                            vision that also applies on a daily basis to our
-                            portfolio management activity. We have solid
-                            experience at all stages of the value creation
-                            chain of technology invention: acquisition,
-                            management, development, marketing, financial
-                            structuring
-                        </p>
-                    </div>
-                    <div class="cv_section_btn_row">
-                        <a
-                            href="#contact"
-                            class="cv_section_btn contact_scroll"
-                        >
-                            Contact us
-                        </a>
-                    </div>
-                </div>
+
+        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-5">
+            <div class="about-img">
+              <img src="images/blackjoe banner.jpeg" class="img-fluid" alt="">
             </div>
+          </div>
+  
+          <div class="col-lg-7">
+            <h3 class="pt-0 pt-lg-5">What we stand for || What we believe </h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">Vision</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Mission</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Goal</a></li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+
+                <p class="fst-italic">Our vision is: </p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>To build world class businesses powered by technology. </h4>
+                </div>
+                <!-- <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>To be the leading innovator in the technology industry, constantly pushing the boundaries of what's possible</h4>
+                </div>
+                <!-- <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>To create solutions that transform people's lives. We aim to make the world a better place by leveraging cutting-edge technology to solve some of the world's biggest challenges.</h4>
+                </div>
+                <!-- <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p> -->
+
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+
+                <p class="fst-italic">Our mission is: </p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>To empower people and organizations to achieve their full potential through the use of technology.</h4>
+                </div>
+                <!-- <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>We strive to create intuitive and elegant solutions that solve complex problems in a simple and efficient manner.</h4>
+                </div>
+                <!-- <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>We are committed to building strong relationships with our clients and partners, and to providing exceptional customer service that exceeds their expectations.</h4>
+                </div>
+                <!-- <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>We believe in being socially responsible and using our technology to make a positive impact on the world.</h4>
+                </div>
+              </div>
+              
+              
+              <!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3">
+
+                <p class="fst-italic">Our goal:</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Innovation</h4>
+                </div>
+                <!-- <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Growth</h4>
+                </div>
+                <!-- <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Customer Satisfaction</h4>
+                </div>
+                <!-- <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p> -->
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Talent Acquisition and Retention</h4>
+                </div>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Sustainability</h4>
+                </div>
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+
+          </div>
+
         </div>
-    </section>
-    <section class="cv_notre">
-        <div class="container">
-            <div class="cv_notre_row" id="our-value-proposition">
-                <div class="cv_notre_col">
-                    <h3 class="cv_section_title">Our value proposition</h3>
-                    <div class="cv_section_text">
-                        <p>
-                            <strong
-                                >Our goal is to create value in the real
-                                estate projects we carry.</strong
-                            >
-                        </p>
-                        <p>
-                            Our objective of value creation, as an investor
-                            and developer, has led us to get involved
-                            financially in every project we carry out,
-                            because we are not simple advisors,<br />
-                            we are true partners and we are committed to our
-                            customers and investors.
-                        </p>
-                        <p>
-                            The achievement of this goal is made possible
-                            thanks to the passion and determination of our
-                            teams of experts, in Switzerland and abroad, a
-                            high level of creativity and a long experience
-                            acquired through the development of a multitude
-                            of projects managed over the years through
-                            different real estate cycles.
-                        </p>
-                        <p>
-                            The Groupe Capvest adopts a tailor-made
-                            approach, taking into account the specificities
-                            of each project for optimized solutions. Two key
-                            elements define each Capvest project: a strong
-                            architectural signature in connection with its
-                            environment and an assertive consideration of
-                            sustainability.
-                        </p>
-                    </div>
-                </div>
-                <div class="cv_notre_col">
-                    <div class="cv_notre_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-proposition-de-valeur.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_notre_philosophie_row" id="our-philosophy">
-                <div class="cv_notre_col">
-                    <div class="cv_notre_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-philosophie.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-                <div class="cv_notre_col">
-                    <h3 class="cv_section_title">Our philosophy</h3>
-                    <div class="cv_section_text">
-                        <h4>VISION</h4>
-                        <p>
-                            We want to develop the disruptive technologies of tomorrow
-                            through ambitious projects, with a view to
-                            creating value and sustainability.
-                        </p>
-                        <h4>MISSION</h4>
-                        <p>
-                            With a high level of requirement and always with
-                            a view to creating sustainable value, Groupe
-                            Capvest supports investors in the real estate
-                            sector in Switzerland and abroad in the
-                            development of their project, the management of
-                            their assets, and by providing them with
-                            tailor-made real estate advice
-                        </p>
-                    </div>
-                </div>
-            </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <!-- <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
         </div>
-    </section>
-    <section class="cv_nos_valeurs" id="our-values">
-        <div class="container">
-            <div class="cv_nos_valeurs_row">
-                <div class="cv_nos_valeurs_col">
-                    <h3 class="cv_section_title">Our values</h3>
-                    <h4 class="cv_section_text">
-                        Our group identifies and expresses itself on a daily
-                        basis through different values:
-                    </h4>
-                    <ul class="cv_nos_valeurs_list">
-                        <li data-number="01">
-                            <span>Creativity and value creation,</span> in
-                            the development of new projects, but also in
-                            asset management.
-                        </li>
-                        <li data-number="02">
-                            <span>The expertise,</span> thanks to a
-                            qualified team that has been evolving in the
-                            real estate sector for many years.
-                        </li>
-                        <li data-number="03">
-                            <span>Sustainability,</span>with the desire to
-                            offer a better world of tomorrow to new
-                            generations, by creating responsible and
-                            sustainable buildings.
-                        </li>
-                        <li data-number="04">
-                            <span>Realism and pragmatism, </span>because we
-                            must carry out projects in all conscience to
-                            make effective operational decisions adapted to
-                            each situation.
-                        </li>
-                        <li data-number="05">
-                            <span>Innovation,</span>by choosing unique
-                            solutions and by adopting an agility that allows
-                            us to constantly adapt to the different
-                            situations encountered in each of our real
-                            estate projects.
-                        </li>
-                        <li data-number="06">
-                            <span
-                                >The constitution of a solid
-                                partnership,</span
-                            >by resonating with our employees the notions of
-                            trust and efficiency.
-                        </li>
-                        <li data-number="07">
-                            <span>A particular architectural signature</span
-                            >that reveals our creativity and the desire to
-                            deploy a sophisticated and elegant urban
-                            footprint.
-                        </li>
-                    </ul>
-                </div>
+
+      </div>
+    </section> -->
+    <!-- End Clients Section -->
+
+    <!-- ======= Call To Action Section ======= -->
+    <!-- <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row g-5">
+
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>Invest With Us<em></em> </h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a class="cta-btn align-self-start" href="#">Call To Action</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
             </div>
+          </div>
+
         </div>
-    </section>
-    <section class="cv_presentation_various" id="subsidiaries-presentation">
-        <div class="container">
-            <h2 class="cv_section_title">
-                Presentation of the different services of BlackJoe Tech
-            </h2>
-            <div class="cv_presentation_various_row pv_row_1" id="transportation">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/Capvest-logo1.svg"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">
-                        BLACKJOE TRANSPORTATION
-                    </h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Founded in 2001 by Magid Khoury, Capvest
-                            Advisors SA is the central pillar of the Capvest
-                            Group. The company offers a wide range of real
-                            estate services, including investment,
-                            promotion, and management of diversified real
-                            estate portfolios.
-                        </p>
-                        <p>
-                            Based in Geneva, Capvest Advisors SA has been
-                            able to evolve throughout the swiss market by
-                            offering ever more innovative and daring
-                            concepts. Today, the company manages a real
-                            estate portfolio of more than CHF 700 million of
-                            residential and commercial objects in
-                            Switzerland.
-                        </p>
-                        <p>
-                            Capvest Advisors SA is also currently active in
-                            the healthcare market, with the development of
-                            its Capvest Healthcare platform. The platform is
-                            entirely dedicated to the healthcare real estate
-                            sector and offers a full range of services to
-                            investors and operators in the healthcare
-                            sector.
-                        </p>
-                    </div>
-                    <a
-                        href="https://capvest.ch/en/home/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-image-filiales-capvest.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_2" id="logistics">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/unnamed.png"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">LOGISTICS</h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Capwood Advisors Inc., a Canadian subsidiary of
-                            Capvest Group, specializes in the acquisition,
-                            development, financing, restructuring and
-                            management of real estate in North America.
-                            Based in Montreal, the team of specialists is
-                            led by Denis Epoh. She has solid experience in
-                            land acquisition and development, valuation of
-                            real estate investments and property management
-                            on her own account and for institutional third
-                            parties.
-                        </p>
-                    </div>
-                    <a
-                        href="https://www.capwood.ca/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-image-filiales-capwood.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_3" id="RentABus">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/Advislda.svg"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">
-                        RENT A BUS
-                    </h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            CapvestAdvis LDA, the Portuguese subsidiary of
-                            the Capvest Group, operates in development, real
-                            estate investment and project management in
-                            Portugal. Based in Lisbon, our team of local
-                            experts selects and analyzes real estate
-                            investment opportunities and manages projects,
-                            from architectural design to final realization.
-                        </p>
-                    </div>
-                    <a
-                        href="https://capvest.pt/en/home/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-image-filiales-capvest-advis-lda.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_4" id="Shop4Me">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/Logo_Ehden_400.png"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">
-                        SHOP4ME
-                    </h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Magid Khoury, founder and CEO of the Capvest
-                            Group, created Ehden Philanthropic Fund in 2017.
-                            The Fund is actively involved in the fight
-                            against social and economic injustices, by
-                            financially supporting associations such as
-                            Let&#8217;s build my school, Au cœur des
-                            grottes, Make a Wish or Sesobel. It also
-                            supports humanitarian projects and solidarity
-                            actions.
-                        </p>
-                        <p>
-                            Ehden Philanthropic Fund, hosted by the Swiss
-                            Philanthropy Foundation, is active mainly in
-                            Switzerland, Lebanon, Senegal and Burkina Faso.
-                        </p>
-                    </div>
-                    <a
-                        href="https://ehden-fund.org/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-image-filiales-ehden.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_1" id="MySchoolPal">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="{{asset('images/blackjoe-logo.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">
-                    MySCHOOLPAL
-                    </h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Founded in 2001 by Magid Khoury, Capvest
-                            Advisors SA is the central pillar of the Capvest
-                            Group. The company offers a wide range of real
-                            estate services, including investment,
-                            promotion, and management of diversified real
-                            estate portfolios.
-                        </p>
-                        <p>
-                            Based in Geneva, Capvest Advisors SA has been
-                            able to evolve throughout the swiss market by
-                            offering ever more innovative and daring
-                            concepts. Today, the company manages a real
-                            estate portfolio of more than CHF 700 million of
-                            residential and commercial objects in
-                            Switzerland.
-                        </p>
-                        <p>
-                            Capvest Advisors SA is also currently active in
-                            the healthcare market, with the development of
-                            its Capvest Healthcare platform. The platform is
-                            entirely dedicated to the healthcare real estate
-                            sector and offers a full range of services to
-                            investors and operators in the healthcare
-                            sector.
-                        </p>
-                    </div>
-                    <a
-                        href="https://capvest.ch/en/home/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="{{asset('images/blackjoe-transportation.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_2" id="HouseFlip">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="{{asset('images/shop4me.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">HOUSEFLIP</h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Capwood Advisors Inc., a Canadian subsidiary of
-                            Capvest Group, specializes in the acquisition,
-                            development, financing, restructuring and
-                            management of real estate in North America.
-                            Based in Montreal, the team of specialists is
-                            led by Denis Epoh. She has solid experience in
-                            land acquisition and development, valuation of
-                            real estate investments and property management
-                            on her own account and for institutional third
-                            parties.
-                        </p>
-                    </div>
-                    <a
-                        href="https://www.capwood.ca/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="{{asset('images/shop4me.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_3" id="CoRent">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/Advislda.svg"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">
-                        CORENT
-                    </h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            CapvestAdvis LDA, the Portuguese subsidiary of
-                            the Capvest Group, operates in development, real
-                            estate investment and project management in
-                            Portugal. Based in Lisbon, our team of local
-                            experts selects and analyzes real estate
-                            investment opportunities and manages projects,
-                            from architectural design to final realization.
-                        </p>
-                    </div>
-                    <a
-                        href="https://capvest.pt/en/home/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-image-filiales-capvest-advis-lda.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_4" id="XProMarketPlace">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/Logo_Ehden_400.png"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">
-                        XPRO MARKETPLACE
-                    </h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Magid Khoury, founder and CEO of the Capvest
-                            Group, created Ehden Philanthropic Fund in 2017.
-                            The Fund is actively involved in the fight
-                            against social and economic injustices, by
-                            financially supporting associations such as
-                            Let&#8217;s build my school, Au cœur des
-                            grottes, Make a Wish or Sesobel. It also
-                            supports humanitarian projects and solidarity
-                            actions.
-                        </p>
-                        <p>
-                            Ehden Philanthropic Fund, hosted by the Swiss
-                            Philanthropy Foundation, is active mainly in
-                            Switzerland, Lebanon, Senegal and Burkina Faso.
-                        </p>
-                    </div>
-                    <a
-                        href="https://ehden-fund.org/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/uploads/2022/03/groupe-capvest-image-filiales-ehden.jpg"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_1" id="Docs$Nurs">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="{{asset('images/blackjoe-logo.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">
-                        DOCS$NURS
-                    </h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Founded in 2001 by Magid Khoury, Capvest
-                            Advisors SA is the central pillar of the Capvest
-                            Group. The company offers a wide range of real
-                            estate services, including investment,
-                            promotion, and management of diversified real
-                            estate portfolios.
-                        </p>
-                        <p>
-                            Based in Geneva, Capvest Advisors SA has been
-                            able to evolve throughout the swiss market by
-                            offering ever more innovative and daring
-                            concepts. Today, the company manages a real
-                            estate portfolio of more than CHF 700 million of
-                            residential and commercial objects in
-                            Switzerland.
-                        </p>
-                        <p>
-                            Capvest Advisors SA is also currently active in
-                            the healthcare market, with the development of
-                            its Capvest Healthcare platform. The platform is
-                            entirely dedicated to the healthcare real estate
-                            sector and offers a full range of services to
-                            investors and operators in the healthcare
-                            sector.
-                        </p>
-                    </div>
-                    <a
-                        href="https://capvest.ch/en/home/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="{{asset('images/blackjoe-transportation.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-            <div class="cv_presentation_various_row pv_row_2" id="SalezOnline">
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_logo">
-                        <img
-                            src="{{asset('images/shop4me.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                    <h3 class="cv_presentation_various_subtitle">SALEZ ONLINE</h3>
-                    <div class="cv_presentation_various_text">
-                        <p>
-                            Capwood Advisors Inc., a Canadian subsidiary of
-                            Capvest Group, specializes in the acquisition,
-                            development, financing, restructuring and
-                            management of real estate in North America.
-                            Based in Montreal, the team of specialists is
-                            led by Denis Epoh. She has solid experience in
-                            land acquisition and development, valuation of
-                            real estate investments and property management
-                            on her own account and for institutional third
-                            parties.
-                        </p>
-                    </div>
-                    <a
-                        href="https://www.capwood.ca/"
-                        target="_blank"
-                        class="cv_presentation_various_button"
-                        >Learn more</a
-                    >
-                </div>
-                <div class="cv_presentation_various_col">
-                    <div class="cv_presentation_various_image">
-                        <img
-                            src="{{asset('images/shop4me.jpg')}}"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
+
+      </div>
+    </section> -->
+    <!-- End Call To Action Section -->
+
+    <!-- ======= On Focus Section ======= -->
+    <!-- <section id="onfocus" class="onfocus">
+      <div class="container-fluid p-0" data-aos="fade-up">
+
+        <div class="row g-0">
+          <div class="col-lg-6 video-play position-relative">
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="content d-flex flex-column justify-content-center h-100">
+              <h3>Voluptatem dignissimos provident quasi corporis</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul> -->
+              <!-- <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
+            <!-- </div>
+          </div>
         </div>
-    </section>
-    <section class="cv_actualites" id="news">
-        <div class="container">
-            <h2 class="cv_section_title">News</h2>
-            <h3 class="cv_section_subtitle">
-                Follow the news of our various subsidiaries:
-            </h3>
-            <div class="cv_actualites_row">
-                <div class="cv_actualites_col">
-                    <h4 class="cv_social_links_title">
-                        CAPVEST ADVISORS SA
-                    </h4>
-                    <ul class="cv_social_links">
-                        <li>
-                            <a
-                                href="https://capvest.ch/en/news/"
-                                target="_blank"
-                            ></a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.linkedin.com/company/capvest-advisors-sa/"
-                                target="_blank"
-                            ></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cv_actualites_col">
-                    <h4 class="cv_social_links_title">CAPWOOD ADVISORS</h4>
-                    <ul class="cv_social_links">
-                        <li>
-                            <a
-                                href="https://www.capwood.ca/publications"
-                                target="_blank"
-                            ></a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.linkedin.com/company/capwood-advisors-inc./"
-                                target="_blank"
-                            ></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cv_actualites_col">
-                    <h4 class="cv_social_links_title">
-                        EHDEN PHILANTHROPIC FUND
-                    </h4>
-                    <ul class="cv_social_links">
-                        <li>
-                            <a
-                                href="https://ehden-fund.org/#news"
-                                target="_blank"
-                            ></a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.linkedin.com/company/ehden-fund/"
-                                target="_blank"
-                            ></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+      </div>
+    </section> -->
+    <!-- End On Focus Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>Our Services cuts across various sectors such as housing, logistics, health, e-commerce, education, shopping</p>
         </div>
-    </section>
-    <section class="cv_contacts" id="contact">
-        <div class="container">
-            <div class="cv_contacts_row">
-                <div class="cv_contacts_col">
-                    <h2 class="cv_section_title">Contact</h2>
-                    <h3 class="cv_section_text">
-                        For any request, contact us using the online form
-                        below.
-                    </h3>
-                    <div class="cv_contact_form">
-                        <div
-                            role="form"
-                            class="wpcf7"
-                            id="wpcf7-f223-o1"
-                            lang="en-US"
-                            dir="ltr"
-                        >
-                            <div class="screen-reader-response">
-                                <p
-                                    role="status"
-                                    aria-live="polite"
-                                    aria-atomic="true"
-                                ></p>
-                                <ul></ul>
-                            </div>
-                            <form
-                                action="/#wpcf7-f223-o1"
-                                method="post"
-                                class="wpcf7-form init"
-                                novalidate="novalidate"
-                                data-status="init"
-                            >
-                                <div style="display: none">
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7"
-                                        value="223"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_version"
-                                        value="5.6.4"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_locale"
-                                        value="en_US"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_unit_tag"
-                                        value="wpcf7-f223-o1"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_container_post"
-                                        value="0"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_posted_data_hash"
-                                        value=""
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="_wpcf7_recaptcha_response"
-                                        value=""
-                                    />
-                                </div>
-                                <div class="cv_contact_form_item">
-                                    <span
-                                        class="wpcf7-form-control-wrap"
-                                        data-name="title"
-                                        ><select
-                                            name="title"
-                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                            aria-required="true"
-                                            aria-invalid="false"
-                                        >
-                                            <option value="">Title</option>
-                                            <option value="Madam">
-                                                Madam
-                                            </option>
-                                            <option value="Sir">Sir</option>
-                                        </select></span
-                                    >
-                                </div>
-                                <div class="cv_contact_form_item">
-                                    <span
-                                        class="wpcf7-form-control-wrap"
-                                        data-name="contact_person"
-                                        ><input
-                                            type="text"
-                                            name="contact_person"
-                                            value=""
-                                            size="40"
-                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                            aria-required="true"
-                                            aria-invalid="false"
-                                            placeholder="Contact person*"
-                                    /></span>
-                                </div>
-                                <div class="cv_contact_form_item">
-                                    <span
-                                        class="wpcf7-form-control-wrap"
-                                        data-name="email_address"
-                                        ><input
-                                            type="email"
-                                            name="email_address"
-                                            value=""
-                                            size="40"
-                                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                            aria-required="true"
-                                            aria-invalid="false"
-                                            placeholder="Email address*"
-                                    /></span>
-                                </div>
-                                <div class="cv_contact_form_item">
-                                    <span
-                                        class="wpcf7-form-control-wrap"
-                                        data-name="phone_number"
-                                        ><input
-                                            type="tel"
-                                            name="phone_number"
-                                            value=""
-                                            size="40"
-                                            class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
-                                            aria-required="true"
-                                            aria-invalid="false"
-                                            placeholder="Phone Number*"
-                                    /></span>
-                                </div>
-                                <div class="cv_contact_form_item">
-                                    <span
-                                        class="wpcf7-form-control-wrap"
-                                        data-name="comments"
-                                    >
-                                        <textarea
-                                            name="comments"
-                                            cols="40"
-                                            rows="10"
-                                            class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
-                                            aria-required="true"
-                                            aria-invalid="false"
-                                            placeholder="Comment"
-                                        ></textarea>
-                                    </span>
-                                </div>
-                                <div class="cv_contact_form_item">
-                                    <input
-                                        type="submit"
-                                        value="SEND"
-                                        class="wpcf7-form-control has-spinner wpcf7-submit"
-                                    />
-                                </div>
-                                <div
-                                    class="wpcf7-response-output"
-                                    aria-hidden="true"
-                                ></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+
+        <ul class="nav nav-tabs row gy-4 d-flex">
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <i class="bi bi-bag-check-fill color-cyan"></i>
+              <h4>Shop4Me</h4>
+            </a>
+          </li><!-- End Tab 1 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <i class="bi bi-house color-indigo"></i>
+              <h4>Houseflip </h4>
+            </a>
+          </li><!-- End Tab 2 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <i class="bi bi-bank color-teal"></i>
+              <h4>Bedspace </h4>
+            </a>
+          </li><!-- End Tab 3 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <i class="bi bi-house color-red"></i>
+              <h4>Co Rent</h4>
+            </a>
+          </li><!-- End Tab 4 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+              <i class="bi bi-diagram-3 color-blue"></i>
+              <h4>Carrier</h4>
+            </a>
+          </li><!-- End Tab 5 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+              <i class="bi bi-bus-front color-orange"></i>
+              <h4>RentAbus</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
+              <i class="bi bi-bounding-box-circles color-cyan"></i>
+              <h4>Xpro marketplace</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-8">
+              <i class="bi bi-hospital color-indigo"></i>
+              <h4>Docs&Nurs</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-9">
+              <i class="bi bi-book color-teal"></i>
+              <h4>Myschoolpal</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-10">
+              <i class="bi bi-cart color-red"></i>
+              <h4>Salezonline</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                <h3>Shop4Me</h3>
+                <p>
+                  Shop4me is an online shopping platform that helps busy individuals to shop daily with free doorstep delivery. Skip the long queues with our online shopping assistance  
+                </p>
+                <p class="fst-italic">
+                  Safety and security for all your online shopping
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> 24hours doorstep delivery</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Easy, stress free, safe and verified</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Save time! Save Money! Get what you want!</li>
+                </ul>
+                <!-- <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p> -->
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/shop4me.jpg" alt="" class="img-fluid">
+              </div>
             </div>
-        </div>
-    </section>
-    <footer id="cv_footer" class="cv_footer">
-        <div class="container">
-            <div class="cv_footer_row">
-                <div class="cv_footer_col">
-                    <a href="/" class="cv_footer_logo">
-                        <img
-                            src="https://thecapvestgroup.com/wp-content/themes/capvest/assets/img/cv_footer_logo.svg"
-                            alt=""
-                        />
-                    </a>
-                </div>
-                <div class="cv_footer_col">
-                    <ul id="footer-menu-1" class="footer_menu">
-                        <li
-                            id="menu-item-24"
-                            class="li_footer_scroll menu-item menu-item-type-custom menu-item-object-custom menu-item-24"
-                        >
-                            <a href="#capvest-presentation"
-                                >BlackJoe Technologies</a
-                            >
-                        </li>
-                        <li
-                            id="menu-item-25"
-                            class="cv_footer_scroll menu-item menu-item-type-custom menu-item-object-custom menu-item-25"
-                        >
-                            <a href="#our-value-proposition"
-                                >Our value proposition</a
-                            >
-                        </li>
-                        <li
-                            id="menu-item-26"
-                            class="cv_footer_scroll menu-item menu-item-type-custom menu-item-object-custom menu-item-26"
-                        >
-                            <a href="#our-philosophy">Our philosophy</a>
-                        </li>
-                        <li
-                            id="menu-item-27"
-                            class="li_footer_scroll menu-item menu-item-type-custom menu-item-object-custom menu-item-27"
-                        >
-                            <a href="#our-values">Our values</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cv_footer_col">
-                    <ul
-                        id="footer-menu-2"
-                        class="footer_menu cv_menu_scroll"
-                    >
-                        <li
-                            id="menu-item-28"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"
-                        >
-                            <a href="#subsidiaries-presentation"
-                                >The Group&#8217;s subsidiaries</a
-                            >
-                        </li>
-                        <li
-                            id="menu-item-29"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"
-                        >
-                            <a href="#news">News</a>
-                        </li>
-                        <li
-                            id="menu-item-30"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30"
-                        >
-                            <a href="#contact">Contact</a>
-                        </li>
-                        <li
-                            id="menu-item-342"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342"
-                        >
-                            <a
-                                href="https://thecapvestgroup.com/legal-notice/"
-                                >Privacy Policy</a
-                            >
-                        </li>
-                    </ul>
-                </div>
+          </div><!-- End Tab Content 1 -->
+
+          <div class="tab-pane" id="tab-2">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Houseflip</h3>
+                <p>
+                  Houseflip is a fractional ownership real estate platform that allows multiple individuals o own a share or two of a high-valued 
+                  property or several properties to earn 65% commission after 9months..
+                </p>
+                <p class="fst-italic">
+                  Houseflip makes off-plan investments easy and affordable for smart investors.
+
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Smarter way of Investing</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Co Funding in Real Estate investment</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Attractive financing options for different budgets and preference </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Seamless experience for client</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/blackjoe houseflip.jpg" alt="" class="img-fluid">
+              </div>
             </div>
-        </div>
-    </footer>
-    <div id="cookie-law-info-bar" data-nosnippet="true">
-        <span
-            ><div class="cli-bar-container cli-style-v2">
-                <div class="cli-bar-message">
-                    We use cookies on our website to give you the most
-                    relevant experience by remembering your preferences and
-                    repeat visits. By clicking “Accept All”, you consent to
-                    the use of ALL the cookies. However, you may visit
-                    "Cookie Settings" to provide a controlled consent.
-                </div>
-                <div class="cli-bar-btn_container">
-                    <a
-                        id="wt-cli-accept-all-btn"
-                        role="button"
-                        data-cli_action="accept_all"
-                        class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button"
-                        >Accept All</a
-                    ><a
-                        role="button"
-                        id="cookie_action_close_header_reject"
-                        class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header_reject cli_action_button wt-cli-reject-btn"
-                        data-cli_action="reject"
-                        >Reject All</a
-                    >
-                </div>
-            </div></span
-        >
-    </div>
-    <div id="cookie-law-info-again" data-nosnippet="true">
-        <span id="cookie_hdr_showagain">Manage consent</span>
-    </div>
-    <div
-        class="cli-modal"
-        data-nosnippet="true"
-        id="cliSettingsPopup"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="cliSettingsPopup"
-        aria-hidden="true"
-    >
-        <div class="cli-modal-dialog" role="document">
-            <div class="cli-modal-content cli-bar-popup">
-                <button
-                    type="button"
-                    class="cli-modal-close"
-                    id="cliModalClose"
-                >
-                    <svg class="" viewBox="0 0 24 24">
-                        <path
-                            d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"
-                        ></path>
-                        <path d="M0 0h24v24h-24z" fill="none"></path>
-                    </svg>
-                    <span class="wt-cli-sr-only">Close</span>
-                </button>
-                <div class="cli-modal-body">
-                    <div class="cli-container-fluid cli-tab-container">
-                        <div class="cli-row">
-                            <div
-                                class="cli-col-12 cli-align-items-stretch cli-px-0"
-                            >
-                                <div class="cli-privacy-overview">
-                                    <h4>Privacy Overview</h4>
-                                    <div class="cli-privacy-content">
-                                        <div
-                                            class="cli-privacy-content-text"
-                                        >
-                                            This website uses cookies to
-                                            improve your experience while
-                                            you navigate through the
-                                            website. Out of these, the
-                                            cookies that are categorized as
-                                            necessary are stored on your
-                                            browser as they are essential
-                                            for the working of basic
-                                            functionalities of the website.
-                                            We also use third-party cookies
-                                            that help us analyze and
-                                            understand how you use this
-                                            website. These cookies will be
-                                            stored in your browser only with
-                                            your consent. You also have the
-                                            option to opt-out of these
-                                            cookies. But opting out of some
-                                            of these cookies may affect your
-                                            browsing experience.
-                                        </div>
-                                    </div>
-                                    <a
-                                        class="cli-privacy-readmore"
-                                        aria-label="Show more"
-                                        role="button"
-                                        data-readmore-text="Show more"
-                                        data-readless-text="Show less"
-                                    ></a>
-                                </div>
-                            </div>
-                            <div
-                                class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container"
-                            >
-                                <div class="cli-tab-section">
-                                    <div class="cli-tab-header">
-                                        <a
-                                            role="button"
-                                            tabindex="0"
-                                            class="cli-nav-link cli-settings-mobile"
-                                            data-target="necessary"
-                                            data-toggle="cli-toggle-tab"
-                                        >
-                                            Necessary
-                                        </a>
-                                        <div
-                                            class="wt-cli-necessary-checkbox"
-                                        >
-                                            <input
-                                                type="checkbox"
-                                                class="cli-user-preference-checkbox"
-                                                id="wt-cli-checkbox-necessary"
-                                                data-id="checkbox-necessary"
-                                                checked="checked"
-                                            />
-                                            <label
-                                                class="form-check-label"
-                                                for="wt-cli-checkbox-necessary"
-                                                >Necessary</label
-                                            >
-                                        </div>
-                                        <span class="cli-necessary-caption"
-                                            >Always Enabled</span
-                                        >
-                                    </div>
-                                    <div class="cli-tab-content">
-                                        <div
-                                            class="cli-tab-pane cli-fade"
-                                            data-id="necessary"
-                                        >
-                                            <div
-                                                class="wt-cli-cookie-description"
-                                            >
-                                                Necessary cookies are
-                                                absolutely essential for the
-                                                website to function
-                                                properly. These cookies
-                                                ensure basic functionalities
-                                                and security features of the
-                                                website, anonymously.
-                                                <table
-                                                    class="cookielawinfo-row-cat-table cookielawinfo-winter"
-                                                >
-                                                    <thead>
-                                                        <tr>
-                                                            <th
-                                                                class="cookielawinfo-column-1"
-                                                            >
-                                                                Cookie
-                                                            </th>
-                                                            <th
-                                                                class="cookielawinfo-column-3"
-                                                            >
-                                                                Duration
-                                                            </th>
-                                                            <th
-                                                                class="cookielawinfo-column-4"
-                                                            >
-                                                                Description
-                                                            </th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr
-                                                            class="cookielawinfo-row"
-                                                        >
-                                                            <td
-                                                                class="cookielawinfo-column-1"
-                                                            >
-                                                                cookielawinfo-checkbox-analytics
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-3"
-                                                            >
-                                                                11 months
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-4"
-                                                            >
-                                                                This cookie
-                                                                is set by
-                                                                GDPR Cookie
-                                                                Consent
-                                                                plugin. The
-                                                                cookie is
-                                                                used to
-                                                                store the
-                                                                user consent
-                                                                for the
-                                                                cookies in
-                                                                the category
-                                                                "Analytics".
-                                                            </td>
-                                                        </tr>
-                                                        <tr
-                                                            class="cookielawinfo-row"
-                                                        >
-                                                            <td
-                                                                class="cookielawinfo-column-1"
-                                                            >
-                                                                cookielawinfo-checkbox-functional
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-3"
-                                                            >
-                                                                11 months
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-4"
-                                                            >
-                                                                The cookie
-                                                                is set by
-                                                                GDPR cookie
-                                                                consent to
-                                                                record the
-                                                                user consent
-                                                                for the
-                                                                cookies in
-                                                                the category
-                                                                "Functional".
-                                                            </td>
-                                                        </tr>
-                                                        <tr
-                                                            class="cookielawinfo-row"
-                                                        >
-                                                            <td
-                                                                class="cookielawinfo-column-1"
-                                                            >
-                                                                cookielawinfo-checkbox-necessary
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-3"
-                                                            >
-                                                                11 months
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-4"
-                                                            >
-                                                                This cookie
-                                                                is set by
-                                                                GDPR Cookie
-                                                                Consent
-                                                                plugin. The
-                                                                cookies is
-                                                                used to
-                                                                store the
-                                                                user consent
-                                                                for the
-                                                                cookies in
-                                                                the category
-                                                                "Necessary".
-                                                            </td>
-                                                        </tr>
-                                                        <tr
-                                                            class="cookielawinfo-row"
-                                                        >
-                                                            <td
-                                                                class="cookielawinfo-column-1"
-                                                            >
-                                                                cookielawinfo-checkbox-others
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-3"
-                                                            >
-                                                                11 months
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-4"
-                                                            >
-                                                                This cookie
-                                                                is set by
-                                                                GDPR Cookie
-                                                                Consent
-                                                                plugin. The
-                                                                cookie is
-                                                                used to
-                                                                store the
-                                                                user consent
-                                                                for the
-                                                                cookies in
-                                                                the category
-                                                                "Other.
-                                                            </td>
-                                                        </tr>
-                                                        <tr
-                                                            class="cookielawinfo-row"
-                                                        >
-                                                            <td
-                                                                class="cookielawinfo-column-1"
-                                                            >
-                                                                cookielawinfo-checkbox-performance
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-3"
-                                                            >
-                                                                11 months
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-4"
-                                                            >
-                                                                This cookie
-                                                                is set by
-                                                                GDPR Cookie
-                                                                Consent
-                                                                plugin. The
-                                                                cookie is
-                                                                used to
-                                                                store the
-                                                                user consent
-                                                                for the
-                                                                cookies in
-                                                                the category
-                                                                "Performance".
-                                                            </td>
-                                                        </tr>
-                                                        <tr
-                                                            class="cookielawinfo-row"
-                                                        >
-                                                            <td
-                                                                class="cookielawinfo-column-1"
-                                                            >
-                                                                viewed_cookie_policy
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-3"
-                                                            >
-                                                                11 months
-                                                            </td>
-                                                            <td
-                                                                class="cookielawinfo-column-4"
-                                                            >
-                                                                The cookie
-                                                                is set by
-                                                                the GDPR
-                                                                Cookie
-                                                                Consent
-                                                                plugin and
-                                                                is used to
-                                                                store
-                                                                whether or
-                                                                not user has
-                                                                consented to
-                                                                the use of
-                                                                cookies. It
-                                                                does not
-                                                                store any
-                                                                personal
-                                                                data.
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cli-tab-section">
-                                    <div class="cli-tab-header">
-                                        <a
-                                            role="button"
-                                            tabindex="0"
-                                            class="cli-nav-link cli-settings-mobile"
-                                            data-target="functional"
-                                            data-toggle="cli-toggle-tab"
-                                        >
-                                            Functional
-                                        </a>
-                                        <div class="cli-switch">
-                                            <input
-                                                type="checkbox"
-                                                id="wt-cli-checkbox-functional"
-                                                class="cli-user-preference-checkbox"
-                                                data-id="checkbox-functional"
-                                            />
-                                            <label
-                                                for="wt-cli-checkbox-functional"
-                                                class="cli-slider"
-                                                data-cli-enable="Enabled"
-                                                data-cli-disable="Disabled"
-                                                ><span
-                                                    class="wt-cli-sr-only"
-                                                    >Functional</span
-                                                ></label
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="cli-tab-content">
-                                        <div
-                                            class="cli-tab-pane cli-fade"
-                                            data-id="functional"
-                                        >
-                                            <div
-                                                class="wt-cli-cookie-description"
-                                            >
-                                                Functional cookies help to
-                                                perform certain
-                                                functionalities like sharing
-                                                the content of the website
-                                                on social media platforms,
-                                                collect feedbacks, and other
-                                                third-party features.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cli-tab-section">
-                                    <div class="cli-tab-header">
-                                        <a
-                                            role="button"
-                                            tabindex="0"
-                                            class="cli-nav-link cli-settings-mobile"
-                                            data-target="performance"
-                                            data-toggle="cli-toggle-tab"
-                                        >
-                                            Performance
-                                        </a>
-                                        <div class="cli-switch">
-                                            <input
-                                                type="checkbox"
-                                                id="wt-cli-checkbox-performance"
-                                                class="cli-user-preference-checkbox"
-                                                data-id="checkbox-performance"
-                                            />
-                                            <label
-                                                for="wt-cli-checkbox-performance"
-                                                class="cli-slider"
-                                                data-cli-enable="Enabled"
-                                                data-cli-disable="Disabled"
-                                                ><span
-                                                    class="wt-cli-sr-only"
-                                                    >Performance</span
-                                                ></label
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="cli-tab-content">
-                                        <div
-                                            class="cli-tab-pane cli-fade"
-                                            data-id="performance"
-                                        >
-                                            <div
-                                                class="wt-cli-cookie-description"
-                                            >
-                                                Performance cookies are used
-                                                to understand and analyze
-                                                the key performance indexes
-                                                of the website which helps
-                                                in delivering a better user
-                                                experience for the visitors.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cli-tab-section">
-                                    <div class="cli-tab-header">
-                                        <a
-                                            role="button"
-                                            tabindex="0"
-                                            class="cli-nav-link cli-settings-mobile"
-                                            data-target="analytics"
-                                            data-toggle="cli-toggle-tab"
-                                        >
-                                            Analytics
-                                        </a>
-                                        <div class="cli-switch">
-                                            <input
-                                                type="checkbox"
-                                                id="wt-cli-checkbox-analytics"
-                                                class="cli-user-preference-checkbox"
-                                                data-id="checkbox-analytics"
-                                            />
-                                            <label
-                                                for="wt-cli-checkbox-analytics"
-                                                class="cli-slider"
-                                                data-cli-enable="Enabled"
-                                                data-cli-disable="Disabled"
-                                                ><span
-                                                    class="wt-cli-sr-only"
-                                                    >Analytics</span
-                                                ></label
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="cli-tab-content">
-                                        <div
-                                            class="cli-tab-pane cli-fade"
-                                            data-id="analytics"
-                                        >
-                                            <div
-                                                class="wt-cli-cookie-description"
-                                            >
-                                                Analytical cookies are used
-                                                to understand how visitors
-                                                interact with the website.
-                                                These cookies help provide
-                                                information on metrics the
-                                                number of visitors, bounce
-                                                rate, traffic source, etc.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cli-tab-section">
-                                    <div class="cli-tab-header">
-                                        <a
-                                            role="button"
-                                            tabindex="0"
-                                            class="cli-nav-link cli-settings-mobile"
-                                            data-target="advertisement"
-                                            data-toggle="cli-toggle-tab"
-                                        >
-                                            Advertisement
-                                        </a>
-                                        <div class="cli-switch">
-                                            <input
-                                                type="checkbox"
-                                                id="wt-cli-checkbox-advertisement"
-                                                class="cli-user-preference-checkbox"
-                                                data-id="checkbox-advertisement"
-                                            />
-                                            <label
-                                                for="wt-cli-checkbox-advertisement"
-                                                class="cli-slider"
-                                                data-cli-enable="Enabled"
-                                                data-cli-disable="Disabled"
-                                                ><span
-                                                    class="wt-cli-sr-only"
-                                                    >Advertisement</span
-                                                ></label
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="cli-tab-content">
-                                        <div
-                                            class="cli-tab-pane cli-fade"
-                                            data-id="advertisement"
-                                        >
-                                            <div
-                                                class="wt-cli-cookie-description"
-                                            >
-                                                Advertisement cookies are
-                                                used to provide visitors
-                                                with relevant ads and
-                                                marketing campaigns. These
-                                                cookies track visitors
-                                                across websites and collect
-                                                information to provide
-                                                customized ads.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cli-tab-section">
-                                    <div class="cli-tab-header">
-                                        <a
-                                            role="button"
-                                            tabindex="0"
-                                            class="cli-nav-link cli-settings-mobile"
-                                            data-target="others"
-                                            data-toggle="cli-toggle-tab"
-                                        >
-                                            Others
-                                        </a>
-                                        <div class="cli-switch">
-                                            <input
-                                                type="checkbox"
-                                                id="wt-cli-checkbox-others"
-                                                class="cli-user-preference-checkbox"
-                                                data-id="checkbox-others"
-                                            />
-                                            <label
-                                                for="wt-cli-checkbox-others"
-                                                class="cli-slider"
-                                                data-cli-enable="Enabled"
-                                                data-cli-disable="Disabled"
-                                                ><span
-                                                    class="wt-cli-sr-only"
-                                                    >Others</span
-                                                ></label
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="cli-tab-content">
-                                        <div
-                                            class="cli-tab-pane cli-fade"
-                                            data-id="others"
-                                        >
-                                            <div
-                                                class="wt-cli-cookie-description"
-                                            >
-                                                Other uncategorized cookies
-                                                are those that are being
-                                                analyzed and have not been
-                                                classified into a category
-                                                as yet.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cli-modal-footer">
-                    <div
-                        class="wt-cli-element cli-container-fluid cli-tab-container"
-                    >
-                        <div class="cli-row">
-                            <div
-                                class="cli-col-12 cli-align-items-stretch cli-px-0"
-                            >
-                                <div
-                                    class="cli-tab-footer wt-cli-privacy-overview-actions"
-                                >
-                                    <a
-                                        id="wt-cli-privacy-save-btn"
-                                        role="button"
-                                        tabindex="0"
-                                        data-cli-action="accept"
-                                        class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn"
-                                        >SAVE &amp; ACCEPT</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div><!-- End Tab Content 2 -->
+
+          <div class="tab-pane" id="tab-3">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Bedspace</h3>
+                <p>
+                  Bedspace is an online booking platform where you get verified shortlet apartments and halls
+                </p>
+                <p class="fst-italic">
+                  Bedspace is deigned for people who look for flexibility, comfort, and affordability in their accommodation options.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i>Travelers (Business Travelers): who are on corporate trips and need a comfortable space to work and relax. </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Tourists: looking for a cost-effective alternative to hotels.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Students: who need temporary accommodation while attending school, participating in a short-term program </li>
+                  <!-- <li><i class="bi bi-check-circle-fill"></i> Guests: who are attending a function in a new city and may prefer a short-term rental service over a hostel or a hotel (Studio Apartment)</li> -->
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/blackjoe bedspace.jpg" alt="" class="img-fluid">
+              </div>
             </div>
+          </div><!-- End Tab Content 3 -->
+
+          <div class="tab-pane" id="tab-4">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Co Rent</h3>
+                <p>
+                  Co-Rent is a real estate platform that allows real estate enthusiasts or individuals to jointly co-own a rental property, a commercial building, a development project and earn monthly passive income for life.
+                </p>
+                <p class="fst-italic">
+                  Helps millennials and Gen Zs invest in rental properties.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Affordable and flexible renting option </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Joint property management</li>
+                  <li><i class="bi bi-check-circle-fill"></i> rental agreement and tenant screening</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/blackjoe co rent.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 4 -->
+
+          <div class="tab-pane" id="tab-5">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Carrier</h3>
+                <p>
+                  Carrier offers B2B logistics solutions for Businesses. It provides timely and efficient delivery of products to customers with competitive pricing
+                </p>
+                <p class="fst-italic">
+                    We handle heavy logistics for businesses.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Smooth, Reliable, Efficient</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Customer Satisfaction</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Reduced Cost, Safety and Security</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/blackjoe carrier.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 5 -->
+
+          <div class="tab-pane" id="tab-6">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>RentAbus</h3>
+                <p>
+                  RentABus is a bus rental platform that provides car hire services
+                  Our bus rental platform offers a comprehensive range of car hire services, including Business Class and GRS (Group Ride Share) options
+                  Whether you're looking for luxurious transportation or cost-effective group travel, we have you covered.
+                </p>
+                <p class="fst-italic">
+                  Elevate your transportation experience with our luxurious business class services.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Luxurious business class services.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Perfect blend of style and sophistication.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> First-class experience every time. </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/rentabus bb.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 6 -->
+
+          <div class="tab-pane" id="tab-7">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Xpro marketplace</h3>
+                <p>
+                  XPRO marketplace is a secure and user-friendly freelance platform that makes it easy for freelancers to connect with clients and find the right projects for their skills and interests.
+                </p>
+                <p class="fst-italic">
+                  It gives easy access to companies and individuals that are in need of professionals to be outsourced for.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Access to a global network of clients and projects</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Access to a talented pool of freelancers with a wide range of skills and experience.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Secure payment system and project management tools</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/xpro marketplace.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 6 -->
+
+          <div class="tab-pane" id="tab-8">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Docs&Nurs</h3>
+                <p>
+                  An online healthcare platform to help you consult a doctor at your comfort. It connects patients with healthcare providers and also provides home care services. 
+                </p>
+                <p class="fst-italic">
+                  Docs&Nurs aims to provide patients with a convenient, accessible, and cost-effective way to access healthcare services and home care services from the comfort of their homes.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Virtual Consultations, Personal Care, 24/7 online consultations and appointments </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Prescription Refills, Rehabilitation Services, Affordable pricing and flexible payment options</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Medical Equipment Rental, Nursing Services, Online Medical Records, </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/docs&nurs.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 6 -->
+
+          <div class="tab-pane" id="tab-9">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Myschoolpal</h3>
+                <p>
+                  Myschoolpal is an online learning platform for students and professionals that offers students personalized attention and 
+                  support from our qualified tutors, who can help them with their homework, assignments and other academic tasks often 
+                  conducted in real-time using video conferencing tools
+                </p>
+                <p class="fst-italic">
+                  Dedicated to providing high-quality education to students all around the world
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i>Flexible Scheduling. Improved Accessibility</li>
+                  <li><i class="bi bi-check-circle-fill"></i>Interactive learning tools. Quality Learning </li>
+                  <li><i class="bi bi-check-circle-fill"></i> Personalized Learning Paths. Collaborative Learning.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/schoolpal.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 6 -->
+
+          <div class="tab-pane" id="tab-10">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Salezonline</h3>
+                <p>
+                  SALEZ is an online platform where users can buy and sell pre owned items.
+                  We help individuals/organistions buy and sell used items with free doorstep delivery.
+                </p>
+                <p class="fst-italic">
+                  SALEZ helps to streamline the buying and selling process, making it easier and more convenient for users.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check-circle-fill"></i> Access to high-quality pre-owned items at affordable prices, </li>
+                  <li><i class="bi bi-check-circle-fill"></i> A convenient and streamlined buying and selling process that saves time and effort for users.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> A trusted and reliable source for pre-owned items, reducing the risk of fraud or scams.</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="images/blackjoe salez.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 6 -->
+
         </div>
-    </div>
-    <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
-    <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
-    <script id="contact-form-7-js-extra">
-        var wpcf7 = {"api":{"root":"https:\/\/thecapvestgroup.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
-    </script>
-    <script
-        src="https://www.google.com/recaptcha/api.js?render=6Ld6pSEgAAAAAF7Q04jAwQuAOeCEAnmPtF2oeLdA&#038;ver=3.0"
-        id="google-recaptcha-js"
-    ></script>
-    <script
-        src="https://thecapvestgroup.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9"
-        id="regenerator-runtime-js"
-    ></script>
-    <script
-        src="https://thecapvestgroup.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-        id="wp-polyfill-js"
-    ></script>
-    <script id="wpcf7-recaptcha-js-extra">
-        var wpcf7_recaptcha = {"sitekey":"6Ld6pSEgAAAAAF7Q04jAwQuAOeCEAnmPtF2oeLdA","actions":{"homepage":"homepage","contactform":"contactform"}};
-    </script>
-    <script
-        defer
-        src="https://thecapvestgroup.com/wp-content/cache/autoptimize/js/autoptimize_e3b1d02562e82ca5e9f17811a944d4ba.js"
-    ></script>
-</body>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <!-- <div class="section-header">
+          <h2>Our Services</h2>
+          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
+        </div> -->
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/shop4me banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-activity"></i> -->
+                  <img src="images/shop4me.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Shop4me</h3>
+                </a>
+                <p>Shop smart, shop quick, Shop4me </p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/houseflip banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-broadcast"></i> -->
+                  <img src="images/blackjoe houseflip.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>House Flip</h3>
+                </a>
+                <p>Smarter way of Investing</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/bedspace banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-easel"></i> -->
+                  <img src="images/blackjoe bedspace.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>BedSpace</h3>
+                </a>
+                <p>Seamless booking for reservations</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/co rent banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-bounding-box-circles"></i> -->
+                  <img src="images/blackjoe co rent.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Co Rent</h3>
+                </a>
+                <p>Co-own a rental property</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/carrier banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-calendar4-week"></i> -->
+                  <img src="images/blackjoe carrier.jpeg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Carrier</h3>
+                </a>
+                <p>Logistics solutions for Businesses.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/rentabus banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-chat-square-text"></i> -->
+                  <img src="images/rentabus bb.jpeg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>RentABus</h3>
+                </a>
+                <p>Move with ease.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="800">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/xpro banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-chat-square-text"></i> -->
+                  <img src="images/xpro marketplace.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>XPro Marketplace</h3>
+                </a>
+                <p>Outsourcing for professionals</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="900">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/docs&nurs banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-chat-square-text"></i> -->
+                  <img src="images/docs&nurs.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Docs&Nurs</h3>
+                </a>
+                <p>Patients & healthcare professionals</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1000">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/myschoolpal banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-chat-square-text"></i> -->
+                  <img src="images/schoolpal.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>MySchoolPal</h3>
+                </a>
+                <p>First among equals, second to none</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1100">
+            <div class="service-item">
+              <div class="img">
+                <img src="images/salez banner.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <!-- <i class="bi bi-chat-square-text"></i> -->
+                  <img src="images/blackjoe salez.jpg" class="img-fluid" alt="">
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>SalezOnline</h3>
+                </a>
+                <p>High quality pre-owned items.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="testimonials-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+            <!-- <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+            <!-- <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+            <!-- <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+            <!-- <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+          <!-- </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <!-- <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Pricing</h2>
+          <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item">
+
+              <div class="pricing-header">
+                <h3>Free Plan</h3>
+                <h4><sup>$</sup>0<span> / month</span></h4>
+              </div>
+
+              <ul>
+                <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+
+              <div class="text-center mt-auto">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+
+            </div>
+          </div>End Pricing Item
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="pricing-item featured">
+
+              <div class="pricing-header">
+                <h3>Business Plan</h3>
+                <h4><sup>$</sup>29<span> / month</span></h4>
+              </div>
+
+              <ul>
+                <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</spa>
+                </li>
+                <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</spa>
+                </li>
+                <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+
+              <div class="text-center mt-auto">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+
+            </div>
+          </div>End Pricing Item
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+            <div class="pricing-item">
+
+              <div class="pricing-header">
+                <h3>Developer Plan</h3>
+                <h4><sup>$</sup>49<span> / month</span></h4>
+              </div>
+
+              <ul>
+                <li><i class="bi bi-dot"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-dot"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-dot"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-dot"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-dot"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+
+              <div class="text-center mt-auto">
+                <a href="#" class="buy-btn">Buy Now</a>
+              </div>
+
+            </div>
+          </div> -->
+          <!-- End Pricing Item -->
+
+        <!-- </div>
+
+      </div>
+    </section> -->
+    <!-- End Pricing Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <!-- <section id="faq" class="faq">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content px-xl-5">
+              <h3>Frequently Asked <strong>Questions</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+            </div>
+
+            <div class="accordion accordion-flush px-xl-5" id="faqlist">
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+                </div>
+              </div> -->
+              <!-- # Faq item-->
+
+              <!-- <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div> -->
+              <!-- # Faq item-->
+
+              <!-- <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </div>
+                </div>
+              </div> -->
+              <!-- # Faq item-->
+
+              <!-- <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div> -->
+              <!-- # Faq item-->
+
+              <!-- <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </div>
+                </div>
+              </div> -->
+              <!-- # Faq item-->
+
+            <!-- </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/faq.jpg");'>&nbsp;</div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End F.A.Q Section -->
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row g-5">
+
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>Invest With Us<em></em> </h3>
+            <p>Are you seeking profitable investment opportunities with a reliable and experienced partner? Look no further! We invite you to join us on an exciting journey towards financial success. At BlackJoe Technologies, we specialize in delivering exceptional investment options tailored to your financial goals. With our proven track record and expertise in the industry, we provide a secure platform for investors like you to maximize returns and build wealth over time.</p>
+            <a class="cta-btn align-self-start" href="mailto:blackjoegroup@gmail.com">Email Us</a>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+            <div class="img">
+              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Call To Action Section -->
+
+    
+
+    <!-- ======= Portfolio Section ======= -->
+    <!-- <section id="portfolio" class="portfolio" data-aos="fade-up">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Portfolio</h2>
+          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat</p>
+        </div>
+
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+          <ul class="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Product</li>
+            <li data-filter=".filter-branding">Branding</li>
+            <li data-filter=".filter-books">Books</li>
+          </ul> -->
+          <!-- End Portfolio Filters -->
+
+          <!-- <div class="row g-0 portfolio-container">
+
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
+              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 1</h4>
+                <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
+              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
+              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Books 1</h4>
+                <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
+              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 2</h4>
+                <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
+              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
+              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Books 2</h4>
+                <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
+              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
+              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
+              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Books 3</h4>
+                <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ route('portfoliodetails') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+          <!-- </div> -->
+          <!-- End Portfolio Container -->
+
+        <!-- </div>
+
+      </div>
+    </section> -->
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Team</h2>
+          <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div> -->
+          <!-- End Team Member -->
+
+          <!-- <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div> -->
+          <!-- End Team Member -->
+
+          <!-- <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div> -->
+          <!-- End Team Member -->
+
+        <!-- </div>
+
+      </div>
+    </section> -->
+    <!-- End Team Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Blog</h2>
+          <p>Recent posts form our Blog</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, December 12</span>
+                <span class="post-author"> / Julia Parker</span>
+              </div>
+              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
+              <p>Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel omnis laudantium. Asperiores eum ipsa est officiis. Modi cupiditate exercitationem qui magni est...</p>
+              <a href="{{ route('blogdetails') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Fri, September 05</span>
+                <span class="post-author"> / Mario Douglas</span>
+              </div>
+              <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+              <p>Voluptatem nesciunt omnis libero autem tempora enim ut ipsam id. Odit quia ab eum assumenda. Quisquam omnis aliquid necessitatibus tempora consectetur doloribus...</p>
+              <a href="{{ route('blogdetails') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, July 27</span>
+                <span class="post-author"> / Lisa Hunter</span>
+              </div>
+              <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+              <p>Quia nam eaque omnis explicabo similique eum quaerat similique laboriosam. Quis omnis repellat sed quae consectetur magnam veritatis dicta nihil...</p>
+              <a href="{{ route('blogdetails') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
+        </div>
+
+      </div>
+
+      <!-- <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      </div> -->
+      <!-- End Google Maps -->
+
+      <div class="container">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <h3>Get in touch</h3>
+              <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
 @endsection

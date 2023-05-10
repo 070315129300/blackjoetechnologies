@@ -8,7 +8,12 @@ class BlogController extends Controller
 {
     public function index(){
         
-        return view('blog/allblogs');
+        return view('blog');
+    }
+
+    public function blogdetails() {
+
+        return view('blog-details');
     }
    
 }

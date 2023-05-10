@@ -1,8 +1,11 @@
-@import './index.css'; 
-/* @import './index2.css';
-@import './index3.css';
-@import './index4.css';
-@import './index6.css';
-@import './index7.css';
-@import './index8.css'; */
+@import './main.css'; 
+/* @import './variables-blue.css'; 
+@import './variables-green.css'; 
+@import './variables-orange.css'; 
+@import './variables-pink.css'; 
+@import './variables-purple.css'; 
+@import './variables-red.css';  */
+@import './variables.css'; 
+
+
 
