@@ -264,7 +264,7 @@
     <!-- End On Focus Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <section id="services" class="features">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">

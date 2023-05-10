@@ -69,7 +69,7 @@
       <nav id="navbar" class="navbar">
         <ul>
 
-          <li><a class="nav-link scrollto" href="{{ route('index') }}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('index') }}#hero-fullscreen">Home</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> -->
             <!-- <ul>
               <li><a href="{{ route('index') }}">Home 1 - index.html</a></li>
