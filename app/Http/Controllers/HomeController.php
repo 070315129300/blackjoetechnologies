@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -34,5 +35,10 @@ class HomeController extends Controller
         } else{
             return redirect()->back();
         }
+    }
+
+    public function adminlogin() {
+
+        return view('adminlogin/blade');
     }
 }

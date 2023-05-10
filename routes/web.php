@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -17,17 +18,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/index2',function () {
-    return view('index2');
-});
 
-Route::get('/blog', function () {
-    return view('blog/allblogs');
-});
-
-Route::get('/allblogs', [BlogController::class, 'index']);
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blog-details', [BlogController::class, 'blogdetails'])->name('blogdetails');
+Route::get('/portfolio-details', [PortfolioController::class, 'portfoliodetails'])->name('portfoliodetails');
+Route::get('/adminlogin', [PortfolioController::class, 'portfoliodetails'])->name('portfoliodetails');
