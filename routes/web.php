@@ -27,4 +27,4 @@ Auth::routes();
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/blog-details', [BlogController::class, 'blogdetails'])->name('blogdetails');
 Route::get('/portfolio-details', [PortfolioController::class, 'portfoliodetails'])->name('portfoliodetails');
-Route::get('/adminlogin', [PortfolioController::class, 'portfoliodetails'])->name('portfoliodetails');
+Route::get('/adminlogin', [PortfolioController::class, 'adminlogin'])->name('adminlogin');

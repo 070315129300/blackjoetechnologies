@@ -1402,7 +1402,7 @@
 
         <div class="section-header">
           <h2>Contact Us</h2>
-          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
+          <p>Want to reach us ? We are just a message away. Please drop your message in the message field and and we'll be in touch with you soon.</p>
         </div>
 
       </div>
@@ -1420,13 +1420,13 @@
 
             <div class="info">
               <h3>Get in touch</h3>
-              <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
+              <p>Please drop your reason for contacting us in the subject field.</p>
 
               <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Lagos Nigeria</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1434,7 +1434,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>blackjoedev@gmail.com</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1442,7 +1442,7 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <p>+234 80 000 000 00</p>
                 </div>
               </div><!-- End Info Item -->
 
