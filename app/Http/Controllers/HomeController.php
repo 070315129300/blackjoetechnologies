@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
+use App\Models\Message;
+use Illuminate\Foundation\Auth\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -24,17 +27,17 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if(Auth::id())
-        {
-            if(auth::user()->usertype == '1')
-            {
-                return view('home');
-            }else{
-                return view('index');
-            }
-        } else{
-            return redirect()->back();
-        }
+        $user = User::paginate(10);
+        $blog = Blog::orderBy('created_at', 'desc')->take(1)->get();
+        $message = Message::paginate(5);
+        return view('home', compact('user', 'blog', 'message'));
+    }
+
+    public function adminindex(){
+        $user = User::paginate(10);
+        $blog = Blog::orderBy('created_at', 'desc')->take(1)->get();
+        $message = Message::paginate(5);
+        return view('admin.index', compact('user', 'blog', 'message'));
     }
 
     public function adminlogin() {

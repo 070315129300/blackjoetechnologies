@@ -4,12 +4,8 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-/*me*/
-// import './bootstrap';
-// import { createApp } from 'vue';
-
-
-
+import './bootstrap';
+import { createApp } from 'vue';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
@@ -17,11 +13,10 @@
  * to use in your application's views. An example is included for you.
  */
 
-/*me*/
-// const app = createApp({});
+const app = createApp({});
 
-// import ExampleComponent from './components/ExampleComponent.vue';
-// app.component('example-component', ExampleComponent);
+import ExampleComponent from './components/ExampleComponent.vue';
+app.component('example-component', ExampleComponent);
 
 /**
  * The following block of code may be used to automatically register your
@@ -36,7 +31,7 @@
 // });
 
 import.meta.glob([
-    '../img/**', '../img/blog/**', '../img/clients/**', 
+    '../img/**', '../img/blog/**', '../img/clients/**',
     '../img/hero-carousel/**', '../img/portfolio/**',
     '../img/team/**', '../img/testimonials/**'
   ]);
@@ -47,7 +42,9 @@ import.meta.glob([
  * scaffolding. Otherwise, you will need to add an element yourself.
  */
 
+
 /*me*/
 // app.mount('#app');
 
 // import './main.js' ;
+
