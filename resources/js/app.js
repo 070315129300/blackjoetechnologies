@@ -30,10 +30,21 @@ app.component('example-component', ExampleComponent);
 //     app.component(path.split('/').pop().replace(/\.\w+$/, ''), definition.default);
 // });
 
+import.meta.glob([
+    '../img/**', '../img/blog/**', '../img/clients/**',
+    '../img/hero-carousel/**', '../img/portfolio/**',
+    '../img/team/**', '../img/testimonials/**'
+  ]);
+
 /**
  * Finally, we will attach the application instance to a HTML element with
  * an "id" attribute of "app". This element is included with the "auth"
  * scaffolding. Otherwise, you will need to add an element yourself.
  */
 
-app.mount('#app');
+
+/*me*/
+// app.mount('#app');
+
+// import './main.js' ;
+

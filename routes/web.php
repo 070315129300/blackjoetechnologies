@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -32,7 +33,7 @@ Route::get('edituser/{id}',[AdminController::class, 'edituser']);
 Route::get('updateuser/{id}',[AdminController::class, 'updateuser']);
 Route::get('blogtable',[AdminController::class, 'blogtable']);
 Route::get('addblog',[AdminController::class, 'addblog']);
-Route::PUT('insertblog',[AdminController::class, 'insertblog']);
+Route::POST('insertblog',[AdminController::class, 'insertblog']);
 Route::PUT('updateblog/{id}',[AdminController::class, 'updateblog']);
 Route::get('inserteditblog',[AdminController::class, 'inserteditblog']);
 Route::get('editblog/{id}',[AdminController::class, 'editblog']);
@@ -64,3 +65,17 @@ Route::middleware(['auth', 'role:admin'])->name('admin.')->prefix('admin')->grou
     Route::delete('users/{user}/permissions/{permissions}',[AdminController::class, 'removePermission'])->name('user.permissions.revoke');
 
 });
+
+Route::get('/', function () {
+    return view('index');
+})->name('index');
+
+Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blog-details', [BlogController::class, 'blogdetails'])->name('blogdetails');
+Route::get('/portfolio-details', [PortfolioController::class, 'portfoliodetails'])->name('portfoliodetails');
+Route::get('/adminlogin', [PortfolioController::class, 'adminlogin'])->name('portfoliodetails');
+

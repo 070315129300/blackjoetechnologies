@@ -27,31 +27,22 @@ class HomeController extends Controller
      */
     public function index()
     {
-//        if(Auth::id())
-//        {
-//            if(auth::user()->usertype == '1')
-//            {
-//                $user = User::paginate(10);
-//                $blog = Blog::paginate(1);
-//                $message = Message::paginate(5);
-//                return view('home', compact('user', 'blog', 'message'));
-//            }else{
-//                return view('index');
-//            }
-//        } else{
-//            return redirect()->back();
-//        }
 
-                $user = User::paginate(10);
-                $blog = Blog::paginate(1);
-                $message = Message::paginate(5);
-                return view('home', compact('user', 'blog', 'message'));
+        $user = User::paginate(10);
+        $blog = Blog::orderBy('created_at', 'desc')->take(1)->get();
+        $message = Message::paginate(5);
+        return view('home', compact('user', 'blog', 'message'));
     }
 
     public function adminindex(){
         $user = User::paginate(10);
-        $blog = Blog::paginate(1);
+        $blog = Blog::orderBy('created_at', 'desc')->take(1)->get();
         $message = Message::paginate(5);
         return view('admin.index', compact('user', 'blog', 'message'));
+    }
+
+    public function adminlogin() {
+
+        return view('adminlogin/blade');
     }
 }

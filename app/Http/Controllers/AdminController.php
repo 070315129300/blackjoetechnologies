@@ -65,9 +65,10 @@ class AdminController extends Controller
             $user->image = $imagename;
         }
         if(Auth::id())
-        {$user->id= Auth::user()->id;
+        {
+            $user->save();
         }
-        $user->save();
+
         return redirect()->back()->with('message', 'Uploaded successfully ');
     }
     public function updateblog(Request $request, $id){
