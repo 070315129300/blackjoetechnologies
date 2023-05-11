@@ -44,11 +44,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <!-- @vite(['resources/css/app.css', 'resources/vendor/bootstrap/css/bootstrap.min.css', 
-  'resources/vendor/bootstrap-icons/bootstrap-icons.css', 'resources/vendor/aos/aos.css', 
-  'resources/vendor/glightbox/css/glightbox.min.css', 'resources/vendor/swiper/swiper-bundle.min.css', 
-  'resources/js/app.js'
-  ]) -->
+  
 
   
 
@@ -80,7 +76,7 @@
           </li>
 
           <li><a class="nav-link scrollto" href="{{ route('index') }}#about">About</a></li>
-          <li class="dropdown megamenu"><a class="nav-link scrollto" href="{{ route('index') }}#services"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown megamenu"><a style = "color: rgba(var(--color-secondary-dark-rgb), 0.7);"; class="nav-link scrollto" href="{{ route('index') }}#services"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li>
                 <a href="#">Co Rent</a>
