@@ -265,7 +265,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Desktop Navigation 
+# Desktop Navigation
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
@@ -2985,7 +2985,7 @@ section {
 # Blog Home Pagination
 --------------------------------------------------------------*/
 .blog .blog-pagination {
-  margin-top: 30px;
+  margin-top: 10px;
   color: var(--color-secondary-light);
 }
 
@@ -3006,7 +3006,7 @@ section {
   padding: 7px 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
+
 }
 
 .blog .blog-pagination li.active,
@@ -3114,7 +3114,7 @@ section {
 } */
 
 .footer .footer-content .footer-links ul li {
-  
+
   position: relative;
 }
 

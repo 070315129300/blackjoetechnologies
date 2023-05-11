@@ -1350,46 +1350,20 @@
                 </div>
 
                 <div class="row">
-
+                        @foreach($user as $users)
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="post-box">
-                            <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+                            <div class="post-img"><img src="blogimage/{{$users->image}}" class="img-fluid" style="height: 300px" alt=""></div>
                             <div class="meta">
-                                <span class="post-date">Tue, December 12</span>
-                                <span class="post-author"> / Julia Parker</span>
+                                <span class="post-date">{{$users->created_at}}</span>
+
                             </div>
-                            <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
-                            <p>Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel omnis laudantium. Asperiores eum ipsa est officiis. Modi cupiditate exercitationem qui magni est...</p>
+                            <h3 class="post-title"><a href="{{ route('blogdetails') }}">{{$users->topic}}</a> </h3>
+                            <p>{{$users->body}}</p>
                             <a href="{{ route('blogdetails') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
-                        <div class="post-box">
-                            <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
-                            <div class="meta">
-                                <span class="post-date">Fri, September 05</span>
-                                <span class="post-author"> / Mario Douglas</span>
-                            </div>
-                            <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
-                            <p>Voluptatem nesciunt omnis libero autem tempora enim ut ipsam id. Odit quia ab eum assumenda. Quisquam omnis aliquid necessitatibus tempora consectetur doloribus...</p>
-                            <a href="{{ route('blogdetails') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="post-box">
-                            <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
-                            <div class="meta">
-                                <span class="post-date">Tue, July 27</span>
-                                <span class="post-author"> / Lisa Hunter</span>
-                            </div>
-                            <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
-                            <p>Quia nam eaque omnis explicabo similique eum quaerat similique laboriosam. Quis omnis repellat sed quae consectetur magnam veritatis dicta nihil...</p>
-                            <a href="{{ route('blogdetails') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
 
             </div>
@@ -1451,7 +1425,8 @@
                     </div>
 
                     <div class="col-lg-8">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="{{url('insertcontact')}}" method="post" role="form" class="php-email-form">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -1466,11 +1441,7 @@
                             <div class="form-group mt-3">
                                 <textarea class="form-control" name="message" placeholder="Message" required></textarea>
                             </div>
-                            <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                            </div>
+
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
                     </div><!-- End Contact Form -->

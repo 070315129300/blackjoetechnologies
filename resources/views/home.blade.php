@@ -43,25 +43,23 @@
             <div class="card-body">
                 <div class="d-flex flex-row justify-content-between">
                     <h4 class="card-title">Messages</h4>
-                    <p class="text-muted mb-1 small">View all</p>
+                    <p class="text-muted mb-1 small"><a href="{{url('allcontact')}}"></a> View all</p>
                 </div>
+                @foreach($message as $messages)
                 <div class="preview-list">
                     <div class="preview-item border-bottom">
-                        <div class="preview-thumbnail">
-                            <img src="assets/images/faces/face6.jpg" alt="image" class="rounded-circle" />
-                        </div>
                         <div class="preview-item-content d-flex flex-grow">
                             <div class="flex-grow">
                                 <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                                    <h6 class="preview-subject">Leonard</h6>
-                                    <p class="text-muted text-small">5 minutes ago</p>
+                                    <h6 class="preview-subject">{{$messages->name}}</h6>
+                                    <p class="text-muted text-small">{{$messages->created_at}}</p>
                                 </div>
-                                <p class="text-muted">Well, it seems to be working now.</p>
+                                <p class="text-muted">{{$messages->message}}</p>
                             </div>
                         </div>
                     </div>
-
                 </div>
+                @endforeach
             </div>
         </div>
     </div>
@@ -72,7 +70,10 @@
     <div class="col-md-6 col-xl-4 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Blog</h4>
+                <div class="d-flex flex-row justify-content-between">
+                    <h4 class="card-title">Blog</h4>
+                    <p class="text-muted mb-1 small"><a href="{{url('blogtable')}}"></a> View all</p>
+                </div>
                     <div class="item">
                         @foreach($blog as $blogs)
                         <img width="100%" src="blogimage/{{$blogs->image}}">
@@ -94,9 +95,6 @@
                     </div>
                 </div>
             @endforeach
-                <div class="progress progress-md portfolio-progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
             </div>
         </div>
     </div>

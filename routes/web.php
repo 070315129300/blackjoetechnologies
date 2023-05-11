@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/',[UserController::class,'index']);
+Route::get('/',[PortfolioController::class,'index']);
 Route::get('/allblogs',[BlogController::class,'allblog']);
 
 Auth::routes();
@@ -38,7 +38,7 @@ Route::PUT('updateblog/{id}',[AdminController::class, 'updateblog']);
 Route::get('inserteditblog',[AdminController::class, 'inserteditblog']);
 Route::get('editblog/{id}',[AdminController::class, 'editblog']);
 Route::get('allcontact',[AdminController::class, 'allcontact']);
-Route::get('insertcontact',[AdminController::class, 'insertcontact']);
+Route::POST('insertcontact',[AdminController::class, 'insertcontact']);
 Route::get('approveadmin/{id}',[AdminController::class, 'approveadmin/id']);
 Route::get('canceladmin/{id}',[AdminController::class, 'canceladmin/id']);
 Route::get('deleteuser/{id}',[AdminController::class, 'deleteuser']);
@@ -66,16 +66,14 @@ Route::middleware(['auth', 'role:admin'])->name('admin.')->prefix('admin')->grou
 
 });
 
-Route::get('/', function () {
-    return view('index');
-})->name('index');
+
 
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
-Route::get('/blog-details', [BlogController::class, 'blogdetails'])->name('blogdetails');
+Route::get('/blog-details/{id}', [BlogController::class, 'blogdetails'])->name('blogdetails');
 Route::get('/portfolio-details', [PortfolioController::class, 'portfoliodetails'])->name('portfoliodetails');
 Route::get('/adminlogin', [PortfolioController::class, 'adminlogin'])->name('portfoliodetails');
 

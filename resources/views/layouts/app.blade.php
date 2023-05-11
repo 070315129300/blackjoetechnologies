@@ -31,6 +31,7 @@
   <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
 
   <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
   <link href="assets/css/main.css" rel="stylesheet">
 
 
@@ -45,27 +46,17 @@
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="{{ route('index') }}" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <a href="{{ url('/') }}" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="{{asset('images/blackjoe_logo_cropped.png')}}" alt="">
-        <!-- <h1>BLACKJOE<span>.</span></h1> -->
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
 
-          <li><a class="nav-link scrollto" href="{{ route('index') }}#hero-fullscreen">Home</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> -->
-            <!-- <ul>
-              <li><a href="{{ route('index') }}">Home 1 - index.html</a></li>
-              <li><a href="index-2.html">Home 2 - index-2.html</a></li>
-              <li><a href="index-3.html" class="active">Home 3 - index-3.html</a></li>
-              <li><a href="index-4.html">Home 4 - index-4.html</a></li>
-            </ul> -->
-          </li>
-
-          <li><a class="nav-link scrollto" href="{{ route('index') }}#about">About</a></li>
-          <li class="dropdown megamenu"><a class="nav-link scrollto" href="{{ route('index') }}#services"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a class="nav-link scrollto" href="{{ url('/') }}#hero-fullscreen">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ url('/') }}#about">About</a></li>
+          <li class="dropdown megamenu"><a class="nav-link scrollto" href="{{ url('/') }}#services"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li>
                 <a href="#">Co Rent</a>
@@ -89,59 +80,20 @@
               </li>
             </ul>
           </li>
-          <!-- <li><a class="nav-link scrollto" href="{{ route('index') }}#portfolio">Portfolio</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="{{ route('index') }}#team">Team</a></li> -->
-          <li><a href="{{ route('blog') }}">Blog</a></li>
+          <!-- <li><a class="nav-link scrollto" href="{{ url('/') }}#portfolio">Portfolio</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="{{ url('/') }}#team">Team</a></li> -->
+          <li><a href="{{ url('blog') }}">Blog</a></li>
           <!-- <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li>
-                <a href="#">Column 1 link 1</a>
-                <a href="#">Column 1 link 2</a>
-                <a href="#">Column 1 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 2 link 1</a>
-                <a href="#">Column 2 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 3 link 1</a>
-                <a href="#">Column 3 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 4 link 1</a>
-                <a href="#">Column 4 link 2</a>
-                <a href="#">Column 4 link 3</a>
-              </li>
-            </ul>
+
           </li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <li><a class="nav-link scrollto" href="{{ route('index') }}#contact">Contact</a></li>
-          <!-- <li><a href="{{ route('index') }}">Others</a></li> -->
-          <!-- <li><a href="{{ route('index') }}">Testimonials</a></li> -->
+          <li><a class="nav-link scrollto" href="{{ url('/') }}#contact">Contact</a></li>
+
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
-      <!-- <a class="btn-getstarted scrollto" href="{{ route('index') }}#about">Get Started</a> -->
+      <!-- <a class="btn-getstarted scrollto" href="{{ url('/') }}#about">Get Started</a> -->
 
     </div>
   </header>
@@ -159,24 +111,16 @@
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>BlackJoe Technologies</h3>
-              <!-- <p>
-                Lagos Nigeria
-              </p>
-              <p> -->
-                <!-- <strong>Phone:</strong> +1 5589 55488 55<br> -->
-                <!-- <strong>Email:</strong> blackjoegroup@gmail.com<br>
-              </p> -->
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <!-- <h3>BlackJoe Technologies</h3> -->
+
               <p>
                 Lagos Nigeria
               </p>
               <p><a href="mailto:blackjoedev@gmail.com">
-                <!-- <strong>Phone:</strong> +1 5589 55488 55<br> -->
                 <strong>Email:</strong> blackjoegroup@gmail.com<br>
               </a></p>
             </div>
@@ -272,7 +216,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
 
   <!-- Template Main JS File -->

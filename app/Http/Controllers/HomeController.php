@@ -27,7 +27,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-
         $user = User::paginate(10);
         $blog = Blog::orderBy('created_at', 'desc')->take(1)->get();
         $message = Message::paginate(5);

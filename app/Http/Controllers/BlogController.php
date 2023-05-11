@@ -15,13 +15,14 @@ class BlogController extends Controller
 
     public function index(){
         $user = Blog::orderBy('created_at', 'desc')->paginate(2);
-        return view('blog', compact('user'));
+        $blog = Blog::inRandomOrder();
+
+        return view('blog', compact('user', 'blog'));
     }
 
-    public function blogdetails() {
+    public function blogdetails($id) {
 
         return view('blog-details');
-
     }
 
 

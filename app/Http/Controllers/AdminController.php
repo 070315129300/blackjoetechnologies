@@ -110,8 +110,8 @@ class AdminController extends Controller
     }
 
     public function allcontact(){
-        $user = Message::all();
-        return view('admin.allcontact', compact('user'));
+        $message = Message::all();
+        return view('admin.allcontact', compact('message'));
     }
     public function insertcontact(Request $request){
         $user = new Message;

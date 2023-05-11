@@ -11,7 +11,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Blog</h2>
           <ol>
-            <li><a href="{{ route('index') }}">Home</a></li>
+            <li><a href="{{ url('/') }}">Home</a></li>
             <li>Blog</li>
           </ol>
         </div>
@@ -32,67 +32,28 @@
               <div class="col-lg-6">
                 <article class="d-flex flex-column">
                   <div class="post-img">
-                    <img src="blogimage/{{$users->image}}" alt="" class="img-fluid">
+                      <a href="{{ route('blogdetails', $users->id) }}"><img src="blogimage/{{$users->image}}" style="height: 350px" alt="" class="img-fluid"></a>
                   </div>
+                    <div class="meta-top">
+                        <ul>
+                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ route('blogdetails', $users->id) }}">{{$users->created_at}}</a></li>
+                        </ul>
+                    </div>
                   <h2 class="title">
-                    <a href="{{ route('blogdetails') }}">{{$users->topic}}</a>
+                    <a href="{{ route('blogdetails', $users->id) }}">{{$users->topic}}</a>
                   </h2>
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ route('blogdetails') }}">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ route('blogdetails') }}"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ route('blogdetails') }}">12 Comments</a></li>
-                    </ul>
-                  </div>
                   <div class="content">
-                    <p>{{$users->body}}</p>
+                    <p><a href="{{route('blogdetails', $users->id)}}"></a>{{$users->body}}</p>
                   </div>
                   <div class="read-more mt-auto align-self-end">
-                    <a href="{{ route('blogdetails') }}">Read More</a>
+                    <a href="{{route('blogdetails', $users->id)}}">Read More</a>
                   </div>
                 </article>
               </div><!-- End post list item -->
                 @endforeach
-              <div class="col-lg-6">
-                <article class="d-flex flex-column">
-
-                  <div class="post-img">
-                    <img src="assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
-                  </div>
-
-                  <h2 class="title">
-                    <a href="{{ route('blogdetails') }}">Distinctio provident quibusdam numquam aperiam aut</a>
-                  </h2>
-
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{ route('blogdetails') }}">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="{{ $users->created_at}}"></a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ route('blogdetails') }}">12 Comments</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="content">
-                    <p>
-                      Expedita et temporibus eligendi enim molestiae est architecto praesentium dolores. Illo laboriosam officiis quis. Labore officia quia sit voluptatem nisi est dignissimos totam. Et voluptate et consectetur voluptatem id dolor magni impedit. Omnis dolores sit.
-                    </p>
-                  </div>
-
-                  <div class="read-more mt-auto align-self-end">
-                    <a href="{{ route('blogdetails') }}">Read More</a>
-                  </div>
-
-                </article>
-              </div><!-- End post list item -->
 
             </div><!-- End blog posts list -->
-
-            <div class="blog-pagination" style="color:blue; font-size: 14px">
-                <ul>
-                    {{$user->links()}}
-                </ul>
-
-            </div><!-- End blog pagination -->
+                        {{$user->links()}}
 
           </div>
 
@@ -122,50 +83,19 @@
 
               <div class="sidebar-item recent-posts">
                 <h3 class="sidebar-title">Recent Posts</h3>
-
+                    @foreach($blog as $blogs)
                 <div class="mt-3">
 
                   <div class="post-item mt-3">
-                    <img src="assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
+                    <img src="blogimage/{{$blogs->image}}" alt="" class="flex-shrink-0">
                     <div>
-                      <h4><a href="blog-post.html">Nihil blanditiis at in nihil autem</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
-                    </div>
-                  </div><!-- End recent post item-->
-
-                  <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-2.jpg" alt="" class="flex-shrink-0">
-                    <div>
-                      <h4><a href="blog-post.html">Quidem autem et impedit</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
-                    </div>
-                  </div><!-- End recent post item-->
-
-                  <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
-                    <div>
-                      <h4><a href="blog-post.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
-                    </div>
-                  </div><!-- End recent post item-->
-
-                  <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
-                    <div>
-                      <h4><a href="blog-post.html">Laborum corporis quo dara net para</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
-                    </div>
-                  </div><!-- End recent post item-->
-
-                  <div class="post-item">
-                    <img src="assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
-                    <div>
-                      <h4><a href="blog-post.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                      <h4><a href="blog-post.html">{{$blogs->title}}</a></h4>
+                      <time>{{$blogs->created_at}}</time>
                     </div>
                   </div><!-- End recent post item-->
 
                 </div>
+                  @endforeach
 
               </div><!-- End sidebar recent posts-->
 
