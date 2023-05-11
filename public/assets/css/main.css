@@ -95,14 +95,16 @@ section {
 
 .section-header h2 {
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
   color: var(--color-secondary);
 }
 
 .section-header p {
   margin: 0 auto;
-  color: var(--color-secondary-light);
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 18px;
 }
 
 @media (min-width: 1280px) {
@@ -340,18 +342,18 @@ section {
     color: var(--color-primary);
   }
 
-  .navbar .dropdown a:hover:before,
+  /* .navbar .dropdown a:hover:before,
   .navbar .dropdown:hover>a:before,
   .navbar .dropdown .active:before {
     visibility: hidden;
-  }
+  } */
 
   .navbar .dropdown a:hover,
   .navbar .dropdown .active,
   .navbar .dropdown .active:focus,
   .navbar .dropdown:hover>a {
-    color: var(--color-white);
-    background: var(--color-secondary);
+    /*color: var(--color-white);*/
+    /* background: var(--color-secondary); */
   }
 
   .navbar .dropdown ul {
@@ -364,8 +366,9 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: var(--color-secondary);
+    background: var(--color-secondary-light);
     transition: 0.3s;
+    border-radius: 10px;
   }
 
   .navbar .dropdown ul li {
@@ -378,7 +381,8 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 400;
-    color: rgba(var(--color-white-rgb), 0.5);
+    /* color: rgba(var(--color-white-rgb), 0.5); */
+    color: rgba(var(--color-secondary-dark-rgb), 0.7);
   }
 
   .navbar .dropdown ul a i {
@@ -414,15 +418,16 @@ section {
 
   .navbar .megamenu ul li a,
   .navbar .megamenu ul li:hover>a {
-    color: rgba(var(--color-white-rgb), 0.5);
+    /* color: rgba(var(--color-white-rgb), 0.5); */
+    color: white;
     background: none;
   }
 
   .navbar .megamenu ul li a:hover,
   .navbar .megamenu ul li .active,
   .navbar .megamenu ul li .active:hover {
-    color: var(--color-white);
-    background: var(--color-primary);
+    color: rgba(var(--color-secondary-dark-rgb), 0.7);
+    background: white;
   }
 
   .navbar .dropdown .dropdown ul {
@@ -901,6 +906,7 @@ section {
   font-weight: 300;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
+  text-align: center;
 }
 
 .hero-fullscreen h2 span {

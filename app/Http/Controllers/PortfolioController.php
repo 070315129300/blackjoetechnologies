@@ -19,4 +19,8 @@ class PortfolioController extends Controller
     public function adminlogin(){
         return view('adminlogin');
     }
+
+
+
 }
+

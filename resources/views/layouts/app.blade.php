@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <base href="/public">
   <title>BLACKJOE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -23,19 +23,11 @@
 
   <!-- Variables CSS Files. Uncomment your preferred color scheme -->
   <link href="assets/css/variables.css" rel="stylesheet">
-  <!-- <link href="assets/css/variables-blue.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-green.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-orange.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-purple.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-red.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
+
 
   <!-- Template Main CSS File -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
   <link href="assets/css/main.css" rel="stylesheet">
-
-
-
 
 
 </head>
@@ -56,29 +48,30 @@
 
           <li><a class="nav-link scrollto" href="{{ url('/') }}#hero-fullscreen">Home</a></li>
           <li><a class="nav-link scrollto" href="{{ url('/') }}#about">About</a></li>
-          <li class="dropdown megamenu"><a class="nav-link scrollto" href="{{ url('/') }}#services"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li>
-                <a href="#">Co Rent</a>
-                <a href="#">Houseflip</a>
-                <a href="#">BedSpace</a>
-              </li>
-              <li>
-                <a href="#">Shop4Me</a>
-                <a href="#">Carrier</a>
-                <a href="#">RentABus</a>
-              </li>
-              <li>
-                <a href="#">Xpro Marketplace</a>
-                <a href="#">Docs&Nurs</a>
-                <a href="#">MySchoolPal</a>
-              </li>
-              <li>
-                <a href="#">SalezOnline</a>
-                <a href="#">Column 4 link 2</a>
-                <a href="#">Column 4 link 3</a>
-              </li>
-            </ul>
+          <li class="dropdown megamenu">
+              <a class="nav-link scrollto" href="{{ url('/') }}#services"><span>Services</span>
+{{--                  <i class="bi bi-chevron-down dropdown-indicator"></i>--}}
+              </a>
+
+{{--            <ul>--}}
+{{--              <li>--}}
+{{--                <a href="{{ url('/') }}" data-bs-toggle="tab" data-bs-target="#tab-4">Co Rent</a>--}}
+{{--                <a href="{{ url('/') }}#houseflip">Houseflip</a>--}}
+{{--                <a href="{{ url('/') }}#bedspace">BedSpace</a>--}}
+{{--              </li>--}}
+{{--              <li>--}}
+{{--                <a href="{{ url('/') }}#shop4me">Shop4Me</a>--}}
+{{--                <a href="{{ url('/') }}#carrier">Carrier</a>--}}
+{{--                <a href="{{ url('/') }}#rentabus">RentABus</a>--}}
+{{--              </li>--}}
+{{--              <li>--}}
+{{--                <a href="{{ url('/') }}#xpro">Xpro Marketplace</a>--}}
+{{--                <a href="{{ url('/') }}#docsnurs">Docs&Nurs</a>--}}
+{{--                <a href="{{ url('/') }}#myschoolpal">MySchoolPal</a>--}}
+{{--                  <a href="#">SalezOnline</a>--}}
+{{--              </li>--}}
+
+{{--            </ul>--}}
           </li>
           <!-- <li><a class="nav-link scrollto" href="{{ url('/') }}#portfolio">Portfolio</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="{{ url('/') }}#team">Team</a></li> -->

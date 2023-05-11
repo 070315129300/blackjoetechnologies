@@ -282,16 +282,16 @@
                     </li><!-- End Tab 1 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                            <i class="bi bi-house color-indigo"></i>
-                            <h4>Houseflip </h4>
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2"id="houseflip">
+                            <i class="bi bi-house color-indigo" ></i>
+                            <h4 >Houseflip </h4>
                         </a>
                     </li><!-- End Tab 2 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
                             <i class="bi bi-bank color-teal"></i>
-                            <h4>Bedspace </h4>
+                            <h4 id="bedspace">Bedspace </h4>
                         </a>
                     </li><!-- End Tab 3 Nav -->
 
@@ -305,42 +305,42 @@
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
                             <i class="bi bi-diagram-3 color-blue"></i>
-                            <h4>Carrier</h4>
+                            <h4 id="carrier">Carrier</h4>
                         </a>
                     </li><!-- End Tab 5 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
                             <i class="bi bi-bus-front color-orange"></i>
-                            <h4>RentAbus</h4>
+                            <h4 id="rentabus">RentAbus</h4>
                         </a>
                     </li><!-- End Tab 6 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
                             <i class="bi bi-bounding-box-circles color-cyan"></i>
-                            <h4>Xpro marketplace</h4>
+                            <h4 id="xpro">Xpro marketplace</h4>
                         </a>
                     </li><!-- End Tab 6 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-8">
                             <i class="bi bi-hospital color-indigo"></i>
-                            <h4>Docs&Nurs</h4>
+                            <h4 id="docsnurs">Docs&Nurs</h4>
                         </a>
                     </li><!-- End Tab 6 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-9">
                             <i class="bi bi-book color-teal"></i>
-                            <h4>Myschoolpal</h4>
+                            <h4 id="myschoolpal">Myschoolpal</h4>
                         </a>
                     </li><!-- End Tab 6 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-10">
                             <i class="bi bi-cart color-red"></i>
-                            <h4>Salezonline</h4>
+                            <h4 id="salezonline">Salezonline</h4>
                         </a>
                     </li><!-- End Tab 6 Nav -->
                 </ul>
@@ -379,7 +379,7 @@
                             <div class="col-lg-8 order-2 order-lg-1">
                                 <h3>Houseflip</h3>
                                 <p>
-                                    Houseflip is a fractional ownership real estate platform that allows multiple individuals o own a share or two of a high-valued
+                                    Houseflip is a fractional ownership real estate platform that allows multiple individuals own a share or two of a high-valued
                                     property or several properties to earn 65% commission after 9months..
                                 </p>
                                 <p class="fst-italic">
@@ -424,7 +424,7 @@
 
                     <div class="tab-pane" id="tab-4">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
+                            <div class="col-lg-8 order-2 order-lg-1"/>
                                 <h3>Co Rent</h3>
                                 <p>
                                     Co-Rent is a real estate platform that allows real estate enthusiasts or individuals to jointly co-own a rental property, a commercial building, a development project and earn monthly passive income for life.
@@ -469,10 +469,10 @@
                     <div class="tab-pane" id="tab-6">
                         <div class="row gy-4">
                             <div class="col-lg-8 order-2 order-lg-1">
-                                <h3>RentAbus</h3>
+                                <h3>RentABus</h3>
                                 <p>
-                                    RentABus is a bus rental platform that provides car hire services
-                                    Our bus rental platform offers a comprehensive range of car hire services, including Business Class and GRS (Group Ride Share) options
+                                    RentABus is an online platform that provides car hire services.
+                                    RentABus offers a comprehensive range of car hire services, including Business Class and GRS (Group Ride Share) options
                                     Whether you're looking for luxurious transportation or cost-effective group travel, we have you covered.
                                 </p>
                                 <p class="fst-italic">
@@ -495,7 +495,7 @@
                             <div class="col-lg-8 order-2 order-lg-1">
                                 <h3>Xpro marketplace</h3>
                                 <p>
-                                    XPRO marketplace is a secure and user-friendly freelance platform that makes it easy for freelancers to connect with clients and find the right projects for their skills and interests.
+                                    Xpro marketplace is a secure and user-friendly freelance platform that makes it easy for freelancers to connect with clients and find the right projects for their skills and interests.
                                 </p>
                                 <p class="fst-italic">
                                     It gives easy access to companies and individuals that are in need of professionals to be outsourced for.
@@ -607,9 +607,9 @@
                                     <!-- <i class="bi bi-activity"></i> -->
                                     <img src="images/shop4me.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>Shop4me</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Shop smart, shop quick, Shop4me </p>
                             </div>
                         </div>
@@ -625,9 +625,9 @@
                                     <!-- <i class="bi bi-broadcast"></i> -->
                                     <img src="images/blackjoe houseflip.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>House Flip</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Smarter way of Investing</p>
                             </div>
                         </div>
@@ -643,9 +643,9 @@
                                     <!-- <i class="bi bi-easel"></i> -->
                                     <img src="images/blackjoe bedspace.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>BedSpace</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Seamless booking for reservations</p>
                             </div>
                         </div>
@@ -661,11 +661,11 @@
                                     <!-- <i class="bi bi-bounding-box-circles"></i> -->
                                     <img src="images/blackjoe co rent.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>Co Rent</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Co-own a rental property</p>
-                                <a href="#" class="stretched-link"></a>
+{{--                                <a href="#" class="stretched-link"></a>--}}
                             </div>
                         </div>
                     </div><!-- End Service Item -->
@@ -680,11 +680,11 @@
                                     <!-- <i class="bi bi-calendar4-week"></i> -->
                                     <img src="images/blackjoe carrier.jpeg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>Carrier</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Logistics solutions for Businesses.</p>
-                                <a href="#" class="stretched-link"></a>
+{{--                                <a href="#" class="stretched-link"></a>--}}
                             </div>
                         </div>
                     </div><!-- End Service Item -->
@@ -699,11 +699,11 @@
                                     <!-- <i class="bi bi-chat-square-text"></i> -->
                                     <img src="images/rentabus bb.jpeg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>RentABus</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Move with ease.</p>
-                                <a href="#" class="stretched-link"></a>
+{{--                                <a href="#" class="stretched-link"></a>--}}
                             </div>
                         </div>
                     </div>
@@ -718,11 +718,11 @@
                                     <!-- <i class="bi bi-chat-square-text"></i> -->
                                     <img src="images/xpro marketplace.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>XPro Marketplace</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Outsourcing for professionals</p>
-                                <a href="#" class="stretched-link"></a>
+{{--                                <a href="#" class="stretched-link"></a>--}}
                             </div>
                         </div>
                     </div>
@@ -737,11 +737,11 @@
                                     <!-- <i class="bi bi-chat-square-text"></i> -->
                                     <img src="images/docs&nurs.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>Docs&Nurs</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>Patients & healthcare professionals</p>
-                                <a href="#" class="stretched-link"></a>
+{{--                                <a href="#" class="stretched-link"></a>--}}
                             </div>
                         </div>
                     </div>
@@ -756,11 +756,11 @@
                                     <!-- <i class="bi bi-chat-square-text"></i> -->
                                     <img src="images/schoolpal.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>MySchoolPal</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>First among equals, second to none</p>
-                                <a href="#" class="stretched-link"></a>
+{{--                                <a href="#" class="stretched-link"></a>--}}
                             </div>
                         </div>
                     </div>
@@ -775,11 +775,11 @@
                                     <!-- <i class="bi bi-chat-square-text"></i> -->
                                     <img src="images/blackjoe salez.jpg" class="img-fluid" alt="">
                                 </div>
-                                <a href="#" class="stretched-link">
+{{--                                <a href="#" class="stretched-link">--}}
                                     <h3>SalezOnline</h3>
-                                </a>
+{{--                                </a>--}}
                                 <p>High quality pre-owned items.</p>
-                                <a href="#" class="stretched-link"></a>
+{{--                                <a href="#" class="stretched-link"></a>--}}
                             </div>
                         </div>
                     </div>
@@ -1098,7 +1098,7 @@
 
                     <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
                         <div class="img">
-                            <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+                            <img src="images/image22.jpeg" alt="" class="img-fluid">
                         </div>
                     </div>
 
@@ -1343,13 +1343,11 @@
         <section id="recent-blog-posts" class="recent-blog-posts">
 
             <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h2>Blog</h2>
-                    <p>Recent posts form our Blog</p>
-                </div>
-
-                <div class="row">
+                 <div class="section-header">
+          <h2>Blog</h2>
+          <p>Recent posts form our Blog</p>
+        </div>
+                     <div class="row">
                         @foreach($user as $users)
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="post-box">
@@ -1358,13 +1356,15 @@
                                 <span class="post-date">{{$users->created_at}}</span>
 
                             </div>
-                            <h3 class="post-title"><a href="{{ route('blogdetails') }}">{{$users->topic}}</a> </h3>
+                            <h3 class="post-title"><a href="{{ route('blogdetails', $users->id) }}">{{$users->topic}}</a> </h3>
                             <p>{{$users->body}}</p>
-                            <a href="{{ route('blogdetails') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                            <a href="{{ route('blogdetails', $users->id) }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                     @endforeach
+
                 </div>
+
 
             </div>
 
@@ -1408,7 +1408,7 @@
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h4>Email:</h4>
-                                    <p>blackjoedev@gmail.com</p>
+                                    <p>blackjoegroup@gmail.com</p>
                                 </div>
                             </div><!-- End Info Item -->
 
@@ -1416,7 +1416,7 @@
                                 <i class="bi bi-phone flex-shrink-0"></i>
                                 <div>
                                     <h4>Call:</h4>
-                                    <p>+234 0000 0000 00</p>
+                                    <p>+234 (0)8142720199</p>
                                 </div>
                             </div><!-- End Info Item -->
 

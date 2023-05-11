@@ -20,10 +20,11 @@ class BlogController extends Controller
         return view('blog', compact('user', 'blog'));
     }
 
-    public function blogdetails($id) {
-
-        return view('blog-details');
+    public function blogdetails( $id) {
+        $user = blog::find($id);
+        return view('blog-details', compact('user'));
     }
+
 
 
 
