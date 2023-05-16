@@ -119,31 +119,31 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <!-- <h4>Useful Links</h4> -->
-            <ul>
-              <li>
-                <!-- <i class="bi bi-chevron-right"></i>  -->
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <!-- <i class="bi bi-chevron-right"></i> -->
-                 <a href="#">About us</a>
-              </li>
-              <li>
-                <!-- <i class="bi bi-chevron-right"></i>  -->
-                <a href="#">Services</a>
-            </li>
-              <li>
-                <!-- <i class="bi bi-chevron-right"></i>  -->
-                <a href="#">Support</a>
-              </li>
-              <li>
-                <!-- <i class="bi bi-chevron-right"></i>  -->
-                <a href="#">Privacy policy</a>
-              </li>
-            </ul>
-          </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+                <!-- <h4>Useful Links</h4> -->
+                <ul>
+                    <li>
+                        <!-- <i class="bi bi-chevron-right"></i>  -->
+                        <a href="{{ url('/') }}#hero-fullscreen">Home</a>
+                    </li>
+                    <li>
+                        <!-- <i class="bi bi-chevron-right"></i> -->
+                        <a href="{{ url('/') }}#about">About us</a>
+                    </li>
+                    <li>
+                        <!-- <i class="bi bi-chevron-right"></i>  -->
+                        <a href="{{ url('/') }}#services">Services</a>
+                    </li>
+                    <li>
+                        <!-- <i class="bi bi-chevron-right"></i>  -->
+                        <a href="{{ url('/') }}#contact">Support</a>
+                    </li>
+                    <li>
+                        <!-- <i class="bi bi-chevron-right"></i>  -->
+                        <a href="#">Privacy policy</a>
+                    </li>
+                </ul>
+            </div>
 
           <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
@@ -184,14 +184,14 @@
             <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
           </div>
         </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <!-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+              <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+              <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+              <a href="https://www.youtube.com/@blackjoetechnologies9457" class="youtube"><i class="bi bi-youtube"></i></a>
+              <a href="https://instagram.com/blackjoetechnologies?igshid=NTc4MTIwNjQ2YQ==" class="instagram"><i class="bi bi-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
+              <a href="https://www.linkedin.com/company/blackjoe-technologies/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
 
       </div>
     </div>
@@ -199,7 +199,7 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="{{ url('/') }}#hero-fullscreen" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
