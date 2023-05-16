@@ -1090,8 +1090,14 @@
                 <div class="row g-5">
 
                     <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-                        <h3>Invest With Us<em></em> </h3>
-                        <p>Are you seeking profitable investment opportunities with a reliable and experienced partner? Look no further! We invite you to join us on an exciting journey towards financial success. At BlackJoe Technologies, we specialize in delivering exceptional investment options tailored to your financial goals. With our proven track record and expertise in the industry, we provide a secure platform for investors like you to maximize returns and build wealth over time.</p>
+                        <h3>Become A Shareholder<em></em> </h3>
+                        <p>Welcome to our unlimited world of investing and ownership,
+                            where you can become an integral part of the company's growth and success.
+                        Our robust investment strategies and rigorous risk management protocols ensure
+                            that your investment are positioned for long-term growth and stability.
+                        We extend our relationship with you beyond the initial investment.
+                            Our team of seasoned professionals are committed to providing ongoing
+                        support and guidance throughout your investment journey</p>
                         <a class="cta-btn align-self-start" href="mailto:blackjoegroup@gmail.com">Email Us</a>
 
                     </div>
@@ -1345,7 +1351,7 @@
             <div class="container" data-aos="fade-up">
                  <div class="section-header">
           <h2>Blog</h2>
-          <p>Recent posts form our Blog</p>
+          <p>Recent posts from our Blog</p>
         </div>
                      <div class="row">
                         @foreach($user as $users)
