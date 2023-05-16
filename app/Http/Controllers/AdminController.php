@@ -120,7 +120,7 @@ class AdminController extends Controller
         $user->subject = $request->subject;
         $user->message = $request->message;
         $user->save();
-        return redirect()->back()->with('message', 'has been sent ');
+        return redirect()->back()->with('success', 'Message has been sent ');
     }
     public  function approveadmin($id){
         $data = User::find($id);

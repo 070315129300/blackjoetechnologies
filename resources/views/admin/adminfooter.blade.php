@@ -1,7 +1,10 @@
 <footer class="footer">
     <div class="d-sm-flex justify-content-center justify-content-sm-between">
-        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © blackjoe@gmail.com 2023</span>
-        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://github.com/070315129300" target="_blank">project</a> from ikhide caleb</span>
+        <p class="text-muted d-block text-center text-sm-center d-sm-inline-block"
+           style="margin-left: 40% !important;">
+            Copyright © blackjoe@gmail.com <?php echo date('Y'); ?>
+        </p>
+{{--        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://github.com/070315129300" target="_blank">project</a> from ikhide caleb</span>--}}
     </div>
 </footer>
 <!-- partial -->
