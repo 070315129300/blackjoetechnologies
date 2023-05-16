@@ -31,7 +31,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        @foreach($user as $users)
+                        @foreach($message as $users)
                             <tr>
                                 <td>
                                     <div class="form-check form-check-muted m-0">

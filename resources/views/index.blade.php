@@ -583,7 +583,7 @@
 
                 </div>
 
-            </div>
+
         </section><!-- End Features Section -->
 
         <!-- ======= Services Section ======= -->
@@ -1445,7 +1445,12 @@
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
                     </div><!-- End Contact Form -->
-
+                    @if(Session::has('success'))
+                        <div class="alert alert-success">{{Session::get('success')}}</div>
+                    @endif
+                    @if(Session::has('fail'))
+                        <div class="alert alert-danger">{{Session::get('fail')}}</div>
+                    @endif
                 </div>
 
             </div>

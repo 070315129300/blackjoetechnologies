@@ -18,9 +18,10 @@
                     </div>
                     <div class="profile-name">
                         <h5 class="mb-0 font-weight-normal">{{ Auth::user()->name }}</h5>
-
+                    </div>
                     </div>
                 </div>
+
         </li>
         <li class="nav-item nav-category">
             <span class="nav-link">Navigation</span>
@@ -107,5 +108,5 @@
                 <span class="menu-title">All Message</span>
             </a>
         </li>
-
+    </ul>
 </nav>

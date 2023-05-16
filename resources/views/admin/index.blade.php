@@ -44,7 +44,7 @@
             <div class="card-body">
                 <div class="d-flex flex-row justify-content-between">
                     <h4 class="card-title">Messages</h4>
-                    <p class="text-muted mb-1 small"><a href="{{url('allcontact')}}"></a> View all</p>
+                    <p class="text-muted mb-1 small"><a href="{{url('allcontact')}}">View all</a> </p>
                 </div>
                 @foreach($message as $messages)
                     <div class="preview-list">
@@ -69,7 +69,7 @@
             <div class="card-body">
                 <div class="d-flex flex-row justify-content-between">
                     <h4 class="card-title">Blog</h4>
-                    <p class="text-muted mb-1 small"><a href="{{url('blogtable')}}"></a> View all</p>
+                    <p class="text-muted mb-1 small"><a href="{{url('blogtable')}}">View all</a> </p>
                 </div>
                 <div class="item">
                     @foreach($blog as $blogs)
