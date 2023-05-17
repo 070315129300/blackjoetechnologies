@@ -48,7 +48,7 @@ class AdminController extends Controller
     }
 
     public function blogtable(){
-        $user = Blog::all();
+        $user = blog::all();
         return view('admin.allblog', compact('user'));
     }
     public function addblog(){
@@ -141,7 +141,7 @@ class AdminController extends Controller
         return redirect()->back();
     }
     public function deleteblog($id){
-        $data = user::find($id);
+        $data = blog::find($id);
         $data->delete();
         return redirect()->back();
     }

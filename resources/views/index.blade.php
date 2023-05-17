@@ -1092,7 +1092,7 @@
                     <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
                         <h3>Become A Shareholder<em></em> </h3>
                         <p>Welcome to our unlimited world of investing and ownership,
-                            where you can become an integral part of the company's growth and success.
+                            where you can become an integral part of our companies growth and success.
                         Our robust investment strategies and rigorous risk management protocols ensure
                             that your investment are positioned for long-term growth and stability.
                         We extend our relationship with you beyond the initial investment.

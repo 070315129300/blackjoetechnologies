@@ -48,8 +48,13 @@
                             <td>
                                 <a class="btn btn-danger" href="{{url('edituser', $users->id)}}">Permissions</a>
                             </td>
-                            <td><a class="btn btn-danger" onclick="return confirm('are you sure you want to delete this appointment')" href="{{url('deleteuser', $users->id)}}">Delete</a></td>
-
+                            <td>
+                                <form action="{{ url('deleteuser', $users->id) }}" method="POST">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</button>
+                                </form>
+                            </td>
                         </tr>
                         @endforeach
                         </tbody>

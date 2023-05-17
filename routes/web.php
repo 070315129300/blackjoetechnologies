@@ -41,8 +41,8 @@ Route::get('allcontact',[AdminController::class, 'allcontact']);
 Route::POST('insertcontact',[AdminController::class, 'insertcontact']);
 Route::get('approveadmin/{id}',[AdminController::class, 'approveadmin/id']);
 Route::get('canceladmin/{id}',[AdminController::class, 'canceladmin/id']);
-Route::get('deleteuser/{id}',[AdminController::class, 'deleteuser']);
-Route::get('deleteblog/{id}',[AdminController::class, 'deleteblog']);
+Route::delete('deleteuser/{id}',[AdminController::class, 'deleteuser']);
+Route::delete('deleteblog/{id}',[AdminController::class, 'deleteblog']);
 Route::post('/users/permissions/{user}',[AdminController::class, 'givePermission'])->name('editblog');
 Route::post('/users/roles/{user}',[AdminController::class, 'assignRole'])->name('editblog');
 

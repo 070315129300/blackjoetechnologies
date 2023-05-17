@@ -45,8 +45,13 @@
                                 <td> {{$users->topic}} </td>
                                 <td> {{$users->body}} </td>
                                 <td><a class="btn btn-primary" onclick="return confirm('are you sure you')" href="{{url('editblog', $users->id)}}">Edit</a></td>
-                                <td><a class="btn btn-danger" onclick="return confirm('are you sure you want to delete this blog')" href="{{url('deleteblog', $users->id)}}">Delete</a></td>
-
+                              <td>
+                                <form action="{{ url('deleteblog', $users->id) }}" method="POST">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this blog?')">Delete</button>
+                                </form>
+                              </td>
                             </tr>
                         @endforeach
                         </tbody>
