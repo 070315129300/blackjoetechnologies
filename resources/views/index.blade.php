@@ -281,12 +281,12 @@
                         </a>
                     </li><!-- End Tab 1 Nav -->
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2"id="houseflip">
-                            <i class="bi bi-house color-indigo" ></i>
-                            <h4 >Houseflip </h4>
-                        </a>
-                    </li><!-- End Tab 2 Nav -->
+{{--                    <li class="nav-item col-6 col-md-4 col-lg-2">--}}
+{{--                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2"id="houseflip">--}}
+{{--                            <i class="bi bi-house color-indigo" ></i>--}}
+{{--                            <h4 >Houseflip </h4>--}}
+{{--                        </a>--}}
+{{--                    </li><!-- End Tab 2 Nav -->--}}
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
@@ -295,12 +295,12 @@
                         </a>
                     </li><!-- End Tab 3 Nav -->
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                            <i class="bi bi-house color-red"></i>
-                            <h4>Co Rent</h4>
-                        </a>
-                    </li><!-- End Tab 4 Nav -->
+{{--                    <li class="nav-item col-6 col-md-4 col-lg-2">--}}
+{{--                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">--}}
+{{--                            <i class="bi bi-house color-red"></i>--}}
+{{--                            <h4>Co Rent</h4>--}}
+{{--                        </a>--}}
+{{--                    </li><!-- End Tab 4 Nav -->--}}
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
@@ -309,12 +309,12 @@
                         </a>
                     </li><!-- End Tab 5 Nav -->
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
-                            <i class="bi bi-bus-front color-orange"></i>
-                            <h4 id="rentabus">RentAbus</h4>
-                        </a>
-                    </li><!-- End Tab 6 Nav -->
+{{--                    <li class="nav-item col-6 col-md-4 col-lg-2">--}}
+{{--                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">--}}
+{{--                            <i class="bi bi-bus-front color-orange"></i>--}}
+{{--                            <h4 id="rentabus">RentAbus</h4>--}}
+{{--                        </a>--}}
+{{--                    </li><!-- End Tab 6 Nav -->--}}
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
@@ -337,12 +337,12 @@
                         </a>
                     </li><!-- End Tab 6 Nav -->
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-10">
-                            <i class="bi bi-cart color-red"></i>
-                            <h4 id="salezonline">Salezonline</h4>
-                        </a>
-                    </li><!-- End Tab 6 Nav -->
+{{--                    <li class="nav-item col-6 col-md-4 col-lg-2">--}}
+{{--                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-10">--}}
+{{--                            <i class="bi bi-cart color-red"></i>--}}
+{{--                            <h4 id="salezonline">Salezonline</h4>--}}
+{{--                        </a>--}}
+{{--                    </li><!-- End Tab 6 Nav -->--}}
                 </ul>
 
                 <div class="tab-content">
@@ -374,30 +374,30 @@
                         </div>
                     </div><!-- End Tab Content 1 -->
 
-                    <div class="tab-pane" id="tab-2">
-                        <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
-                                <h3>Houseflip</h3>
-                                <p>
-                                    Houseflip is a fractional ownership real estate platform that allows multiple individuals own a share or two of a high-valued
-                                    property or several properties to earn 65% commission after 9months..
-                                </p>
-                                <p class="fst-italic">
-                                    Houseflip makes off-plan investments easy and affordable for smart investors.
+{{--                    <div class="tab-pane" id="tab-2">--}}
+{{--                        <div class="row gy-4">--}}
+{{--                            <div class="col-lg-8 order-2 order-lg-1">--}}
+{{--                                <h3>Houseflip</h3>--}}
+{{--                                <p>--}}
+{{--                                    Houseflip is a fractional ownership real estate platform that allows multiple individuals own a share or two of a high-valued--}}
+{{--                                    property or several properties to earn 65% commission after 9months..--}}
+{{--                                </p>--}}
+{{--                                <p class="fst-italic">--}}
+{{--                                    Houseflip makes off-plan investments easy and affordable for smart investors.--}}
 
-                                </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> Smarter way of Investing</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Co Funding in Real Estate investment</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Attractive financing options for different budgets and preference </li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Seamless experience for client</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 order-1 order-lg-2 text-center">
-                                <img src="images/blackjoe houseflip.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div><!-- End Tab Content 2 -->
+{{--                                </p>--}}
+{{--                                <ul>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Smarter way of Investing</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Co Funding in Real Estate investment</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Attractive financing options for different budgets and preference </li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Seamless experience for client</li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 order-1 order-lg-2 text-center">--}}
+{{--                                <img src="images/blackjoe houseflip.jpg" alt="" class="img-fluid">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Tab Content 2 -->--}}
 
                     <div class="tab-pane" id="tab-3">
                         <div class="row gy-4">
@@ -422,27 +422,27 @@
                         </div>
                     </div><!-- End Tab Content 3 -->
 
-                    <div class="tab-pane" id="tab-4">
-                        <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1"/>
-                                <h3>Co Rent</h3>
-                                <p>
-                                    Co-Rent is a real estate platform that allows real estate enthusiasts or individuals to jointly co-own a rental property, a commercial building, a development project and earn monthly passive income for life.
-                                </p>
-                                <p class="fst-italic">
-                                    Helps millennials and Gen Zs invest in rental properties.
-                                </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> Affordable and flexible renting option </li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Joint property management</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> rental agreement and tenant screening</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 order-1 order-lg-2 text-center">
-                                <img src="images/blackjoe co rent.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div><!-- End Tab Content 4 -->
+{{--                    <div class="tab-pane" id="tab-4">--}}
+{{--                        <div class="row gy-4">--}}
+{{--                            <div class="col-lg-8 order-2 order-lg-1"/>--}}
+{{--                                <h3>Co Rent</h3>--}}
+{{--                                <p>--}}
+{{--                                    Co-Rent is a real estate platform that allows real estate enthusiasts or individuals to jointly co-own a rental property, a commercial building, a development project and earn monthly passive income for life.--}}
+{{--                                </p>--}}
+{{--                                <p class="fst-italic">--}}
+{{--                                    Helps millennials and Gen Zs invest in rental properties.--}}
+{{--                                </p>--}}
+{{--                                <ul>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Affordable and flexible renting option </li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Joint property management</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> rental agreement and tenant screening</li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 order-1 order-lg-2 text-center">--}}
+{{--                                <img src="images/blackjoe co rent.jpg" alt="" class="img-fluid">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Tab Content 4 -->--}}
 
                     <div class="tab-pane" id="tab-5">
                         <div class="row gy-4">
@@ -466,29 +466,29 @@
                         </div>
                     </div><!-- End Tab Content 5 -->
 
-                    <div class="tab-pane" id="tab-6">
-                        <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
-                                <h3>RentABus</h3>
-                                <p>
-                                    RentABus is an online platform that provides car hire services.
-                                    RentABus offers a comprehensive range of car hire services, including Business Class and GRS (Group Ride Share) options
-                                    Whether you're looking for luxurious transportation or cost-effective group travel, we have you covered.
-                                </p>
-                                <p class="fst-italic">
-                                    Elevate your transportation experience with our luxurious business class services.
-                                </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> Luxurious business class services.</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Perfect blend of style and sophistication.</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> First-class experience every time. </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 order-1 order-lg-2 text-center">
-                                <img src="images/rentabus bb.jpeg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div><!-- End Tab Content 6 -->
+{{--                    <div class="tab-pane" id="tab-6">--}}
+{{--                        <div class="row gy-4">--}}
+{{--                            <div class="col-lg-8 order-2 order-lg-1">--}}
+{{--                                <h3>RentABus</h3>--}}
+{{--                                <p>--}}
+{{--                                    RentABus is an online platform that provides car hire services.--}}
+{{--                                    RentABus offers a comprehensive range of car hire services, including Business Class and GRS (Group Ride Share) options--}}
+{{--                                    Whether you're looking for luxurious transportation or cost-effective group travel, we have you covered.--}}
+{{--                                </p>--}}
+{{--                                <p class="fst-italic">--}}
+{{--                                    Elevate your transportation experience with our luxurious business class services.--}}
+{{--                                </p>--}}
+{{--                                <ul>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Luxurious business class services.</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Perfect blend of style and sophistication.</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> First-class experience every time. </li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 order-1 order-lg-2 text-center">--}}
+{{--                                <img src="images/rentabus bb.jpeg" alt="" class="img-fluid">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Tab Content 6 -->--}}
 
                     <div class="tab-pane" id="tab-7">
                         <div class="row gy-4">
@@ -558,28 +558,28 @@
                         </div>
                     </div><!-- End Tab Content 6 -->
 
-                    <div class="tab-pane" id="tab-10">
-                        <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
-                                <h3>Salezonline</h3>
-                                <p>
-                                    SALEZ is an online platform where users can buy and sell pre owned items.
-                                    We help individuals/organistions buy and sell used items with free doorstep delivery.
-                                </p>
-                                <p class="fst-italic">
-                                    SALEZ helps to streamline the buying and selling process, making it easier and more convenient for users.
-                                </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> Access to high-quality pre-owned items at affordable prices, </li>
-                                    <li><i class="bi bi-check-circle-fill"></i> A convenient and streamlined buying and selling process that saves time and effort for users.</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> A trusted and reliable source for pre-owned items, reducing the risk of fraud or scams.</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 order-1 order-lg-2 text-center">
-                                <img src="images/blackjoe salez.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div><!-- End Tab Content 6 -->
+{{--                    <div class="tab-pane" id="tab-10">--}}
+{{--                        <div class="row gy-4">--}}
+{{--                            <div class="col-lg-8 order-2 order-lg-1">--}}
+{{--                                <h3>Salezonline</h3>--}}
+{{--                                <p>--}}
+{{--                                    SALEZ is an online platform where users can buy and sell pre owned items.--}}
+{{--                                    We help individuals/organistions buy and sell used items with free doorstep delivery.--}}
+{{--                                </p>--}}
+{{--                                <p class="fst-italic">--}}
+{{--                                    SALEZ helps to streamline the buying and selling process, making it easier and more convenient for users.--}}
+{{--                                </p>--}}
+{{--                                <ul>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Access to high-quality pre-owned items at affordable prices, </li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> A convenient and streamlined buying and selling process that saves time and effort for users.</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> A trusted and reliable source for pre-owned items, reducing the risk of fraud or scams.</li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 order-1 order-lg-2 text-center">--}}
+{{--                                <img src="images/blackjoe salez.jpg" alt="" class="img-fluid">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Tab Content 6 -->--}}
 
                 </div>
 
@@ -615,23 +615,23 @@
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="images/houseflip banner.jpeg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <!-- <i class="bi bi-broadcast"></i> -->
-                                    <img src="images/blackjoe houseflip.jpg" class="img-fluid" alt="">
-                                </div>
+{{--                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">--}}
+{{--                        <div class="service-item">--}}
+{{--                            <div class="img">--}}
+{{--                                <img src="images/houseflip banner.jpeg" class="img-fluid" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="details position-relative">--}}
+{{--                                <div class="icon">--}}
+{{--                                    <!-- <i class="bi bi-broadcast"></i> -->--}}
+{{--                                    <img src="images/blackjoe houseflip.jpg" class="img-fluid" alt="">--}}
+{{--                                </div>--}}
 {{--                                <a href="#" class="stretched-link">--}}
-                                    <h3>House Flip</h3>
+{{--                                    <h3>House Flip</h3>--}}
 {{--                                </a>--}}
-                                <p>Smarter way of Investing</p>
-                            </div>
-                        </div>
-                    </div><!-- End Service Item -->
+{{--                                <p>Smarter way of Investing</p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Service Item -->--}}
 
                     <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                         <div class="service-item">
@@ -651,24 +651,24 @@
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="images/co rent banner.jpeg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <!-- <i class="bi bi-bounding-box-circles"></i> -->
-                                    <img src="images/blackjoe co rent.jpg" class="img-fluid" alt="">
-                                </div>
+{{--                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">--}}
+{{--                        <div class="service-item">--}}
+{{--                            <div class="img">--}}
+{{--                                <img src="images/co rent banner.jpeg" class="img-fluid" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="details position-relative">--}}
+{{--                                <div class="icon">--}}
+{{--                                    <!-- <i class="bi bi-bounding-box-circles"></i> -->--}}
+{{--                                    <img src="images/blackjoe co rent.jpg" class="img-fluid" alt="">--}}
+{{--                                </div>--}}
 {{--                                <a href="#" class="stretched-link">--}}
-                                    <h3>Co Rent</h3>
+{{--                                    <h3>Co Rent</h3>--}}
 {{--                                </a>--}}
-                                <p>Co-own a rental property</p>
+{{--                                <p>Co-own a rental property</p>--}}
 {{--                                <a href="#" class="stretched-link"></a>--}}
-                            </div>
-                        </div>
-                    </div><!-- End Service Item -->
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Service Item -->--}}
 
                     <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
                         <div class="service-item">
@@ -689,24 +689,24 @@
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="images/rentabus banner.jpeg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <!-- <i class="bi bi-chat-square-text"></i> -->
-                                    <img src="images/rentabus bb.jpeg" class="img-fluid" alt="">
-                                </div>
+{{--                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">--}}
+{{--                        <div class="service-item">--}}
+{{--                            <div class="img">--}}
+{{--                                <img src="images/rentabus banner.jpeg" class="img-fluid" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="details position-relative">--}}
+{{--                                <div class="icon">--}}
+{{--                                    <!-- <i class="bi bi-chat-square-text"></i> -->--}}
+{{--                                    <img src="images/rentabus bb.jpeg" class="img-fluid" alt="">--}}
+{{--                                </div>--}}
 {{--                                <a href="#" class="stretched-link">--}}
-                                    <h3>RentABus</h3>
+{{--                                    <h3>RentABus</h3>--}}
 {{--                                </a>--}}
-                                <p>Move with ease.</p>
+{{--                                <p>Move with ease.</p>--}}
 {{--                                <a href="#" class="stretched-link"></a>--}}
-                            </div>
-                        </div>
-                    </div>
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
                     <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="800">
                         <div class="service-item">
@@ -765,24 +765,24 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1100">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="images/salez banner.jpeg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <!-- <i class="bi bi-chat-square-text"></i> -->
-                                    <img src="images/blackjoe salez.jpg" class="img-fluid" alt="">
-                                </div>
+{{--                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1100">--}}
+{{--                        <div class="service-item">--}}
+{{--                            <div class="img">--}}
+{{--                                <img src="images/salez banner.jpeg" class="img-fluid" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="details position-relative">--}}
+{{--                                <div class="icon">--}}
+{{--                                    <!-- <i class="bi bi-chat-square-text"></i> -->--}}
+{{--                                    <img src="images/blackjoe salez.jpg" class="img-fluid" alt="">--}}
+{{--                                </div>--}}
 {{--                                <a href="#" class="stretched-link">--}}
-                                    <h3>SalezOnline</h3>
+{{--                                    <h3>SalezOnline</h3>--}}
 {{--                                </a>--}}
-                                <p>High quality pre-owned items.</p>
+{{--                                <p>High quality pre-owned items.</p>--}}
 {{--                                <a href="#" class="stretched-link"></a>--}}
-                            </div>
-                        </div>
-                    </div>
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <!-- End Service Item -->
 
                 </div>
