@@ -25,6 +25,7 @@ class AdminController extends Controller
         $user->name = $request->name;
         $user->email = $request->email;
         $user->password = Hash::make($request['password']);
+//        $user->assignRole('admin');
         $created = $user->save();
         if($created){
             return redirect()->back()->with('success', 'User Added Successfully');
@@ -122,19 +123,7 @@ class AdminController extends Controller
         $user->save();
         return redirect()->back()->with('success', 'Message has been sent ');
     }
-    public  function approveadmin($id){
-        $data = User::find($id);
-        $data->usertype = 1;
-        $data->save();
-        return redirect()->back();
-    }
 
-    public function canceladmin($id){
-        $data = User::find($id);
-        $data->usertype = 2;
-        $data->save();
-        return redirect()->back();
-    }
     public function deleteuser($id){
         $data = user::find($id);
         $data->delete();
@@ -173,6 +162,11 @@ class AdminController extends Controller
             return back()->with('success','role remove');
         }
         return back()->with('success','role not exists');
+
+    }
+    public function changepassword(Request $request, $id){
+        $user = find::find($id);
+        $user->password = Hash::make($request['password']);
 
     }
 }

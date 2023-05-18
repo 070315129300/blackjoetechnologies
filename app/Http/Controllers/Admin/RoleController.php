@@ -10,7 +10,7 @@ use Spatie\Permission\Models\Role;
 class RoleController extends Controller
 {
     public function index(){
-        $role = Role::whereNotIn('name',['admin', 'developer'])->get();
+        $role = Role::whereNotIn('name',['developer',])->get();
         return view('admin.roles.index', compact('role'));
     }
     public function create(){
