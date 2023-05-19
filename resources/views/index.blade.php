@@ -75,7 +75,7 @@
 
                     <div class="col-lg-5">
                         <div class="about-img">
-                            <img src="images/blackjoe banner.jpeg" class="img-fluid" alt="">
+                            <img src="images/blackjoeservice.jpeg" class="img-fluid" alt="">
                         </div>
                     </div>
 
@@ -1090,7 +1090,7 @@
                 <div class="row g-5">
 
                     <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-                        <h3>Become A Shareholder Starting From $100,000<em></em> </h3>
+                        <h3>Become A Shareholder Starting From $100,000 </h3>
                         <p>Welcome to our unlimited world of investing and ownership,
                             where you can become an integral part of our companies growth and success.
                         Our robust investment strategies and rigorous risk management protocols ensure
@@ -1375,7 +1375,26 @@
             </div>
 
         </section><!-- End Recent Blog Posts Section -->
-
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col section-header" >
+                      <h1 style="text-align: center; color:#515e6b;"> Our Service Subscribers </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/whogohost.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/dulux.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/rcola.jpg"  alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">
