@@ -68,7 +68,7 @@
                     <p class="about-p">BlackJoe Technologies is a leading technology company dedicated to creating innovative solutions that transform industries and improve lives.
                         Since founded, we have been at the forefront of technological innovation, developing cutting-edge products and services that are designed to solve complex problems and make a meaningful impact. Our team of experts is made up of the brightest minds in the industry, who are passionate about what they do and constantly seeking new ways to innovate.
                         At BlackJoe Technologies, we believe in using technology for good, and we are committed to making a positive impact on the world. We work closely with our customers and partners to understand their unique needs and challenges, and we leverage our expertise to create customized solutions that meet their specific requirements.
-                        Looking for software solutions ? BlackJoe Technologies has the expertise and resources to help you succeed. Contact us today to learn more about our products services and how we can help you achieve your goals. </p>
+                        Looking for software solutions ? BlackJoe Technologies has the expertise and resources to help you succeed. Contact us today to learn more about our products, services and how we can help you achieve your goals. </p>
                 </div>
 
                 <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
@@ -407,7 +407,7 @@
                                     Bedspace is an online booking platform where you get verified shortlet apartments and halls
                                 </p>
                                 <p class="fst-italic">
-                                    Bedspace is deigned for people who look for flexibility, comfort, and affordability in their accommodation options.
+                                    Bedspace is designed for people who look for flexibility, comfort, and affordability in their accommodation options.
                                 </p>
                                 <ul>
                                     <li><i class="bi bi-check-circle-fill"></i>Travelers (Business Travelers): who are on corporate trips and need a comfortable space to work and relax. </li>
@@ -1383,13 +1383,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
                         <img src="images/whogohost.png" alt="">
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
                         <img src="images/dulux.jpg" alt="">
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
                         <img src="images/rcola.jpg"  alt="">
                     </div>
                 </div>
