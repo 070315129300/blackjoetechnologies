@@ -1433,7 +1433,7 @@
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h4>Email:</h4>
-                                    <p>customercare@blackjoegroup@gmail.com</p>
+                                    <p>customercare@blackjoetechnologies.com</p>
                                 </div>
                             </div><!-- End Info Item -->
 
