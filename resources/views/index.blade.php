@@ -1401,7 +1401,7 @@
                 <div class="section-header">
                     <h2>Contact Us</h2>
                     <p>We can't wait to hear from you. Please fill the form below to enable
-                        us get your message as quick as possible</p>
+                        us get your message as quick as possible.</p>
                 </div>
 
             </div>
@@ -1433,7 +1433,7 @@
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h4>Email:</h4>
-                                    <p>customercare@blackjoegroup@gmail.com</p>
+                                    <p>customercare@blackjoetechnologies.com</p>
                                 </div>
                             </div><!-- End Info Item -->
 

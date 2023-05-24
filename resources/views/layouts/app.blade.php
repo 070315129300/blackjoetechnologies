@@ -113,8 +113,8 @@
               <p>
                 Lagos Nigeria
               </p>
-              <p><a href="mailto:blackjoedev@gmail.com">
-                <strong>Email:</strong> blackjoegroup@gmail.com<br>
+              <p><a href="mailto:customercare@blackjoetechnologies.com">
+                <strong>Email:</strong> customercare@blackjoetechnologies.com<br>
               </a></p>
             </div>
           </div>
