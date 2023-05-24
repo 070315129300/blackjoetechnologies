@@ -1098,8 +1098,7 @@
                         We extend our relationship with you beyond the initial investment.
                             Our team of seasoned professionals are committed to providing ongoing
                         support and guidance throughout your investment journey</p>
-                        <a class="cta-btn align-self-start" href="mailto:blackjoegroup@gmail.com">Email Us</a>
-
+                        <a class="cta-btn align-self-start" href="mailto:info@blackjoegroup@gmail.com">Email Us</a>
                     </div>
 
                     <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
@@ -1401,7 +1400,8 @@
 
                 <div class="section-header">
                     <h2>Contact Us</h2>
-                    <p>We can't wait to hear from you. Please fill the form below to enable us get your message as quick as possible</p>
+                    <p>We can't wait to hear from you. Please fill the form below to enable
+                        us get your message as quick as possible</p>
                 </div>
 
             </div>
@@ -1433,7 +1433,7 @@
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h4>Email:</h4>
-                                    <p>blackjoegroup@gmail.com</p>
+                                    <p>customercare@blackjoegroup@gmail.com</p>
                                 </div>
                             </div><!-- End Info Item -->
 
