@@ -11,7 +11,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Blog Details</h2>
           <ol>
-            <li><a href="{{ url('/p') }}">Home</a></li>
+            <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ route('blog') }}">Blog</a></li>
             <li>Blog Details</li>
           </ol>
@@ -42,10 +42,7 @@
               <div class="content">
 
                 <h3>{{$user->topic}}</h3>
-                <h3>{{$user->body}}</h3>
-                <p>
-                  Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel.
-                  Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
+                <p>{{$user->body}}
                 </p>
               </div><!-- End post content -->
 
