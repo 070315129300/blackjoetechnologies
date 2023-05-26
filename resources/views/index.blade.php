@@ -1349,20 +1349,20 @@
 
             <div class="container" data-aos="fade-up">
                  <div class="section-header">
-          <h2>Blog</h2>
-          <p>Recent posts from our Blog</p>
+
+          <h2>Recent posts from our Blog</h2>
         </div>
                      <div class="row">
                         @foreach($user as $users)
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
                         <div class="post-box">
-                            <div class="post-img"><img src="blogimage/{{$users->image}}" class="img-fluid" style="height: 300px" alt=""></div>
+                            <div class="post-img"><img src="blogimage/{{$users->image}}" class="img-fluid" style="height: 300px; width:400px;" alt=""></div>
                             <div class="meta">
                                 <span class="post-date">{{$users->created_at}}</span>
 
                             </div>
                             <h3 class="post-title"><a href="{{ route('blogdetails', $users->id) }}">{{$users->topic}}</a> </h3>
-                            <p>{{$users->body}}</p>
+                            <p>{{ Str::limit($users->body, 200) }}</p>
                             <a href="{{ route('blogdetails', $users->id) }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
