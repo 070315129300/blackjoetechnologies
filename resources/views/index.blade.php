@@ -274,7 +274,7 @@
 
                 <ul class="nav nav-tabs row gy-4 d-flex">
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                    <li class="nav-item col-6 col-md-4 col-lg-3">
                         <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
                             <i class="bi bi-bag-check-fill color-cyan"></i>
                             <h4>Shop4Me</h4>
@@ -288,7 +288,7 @@
 {{--                        </a>--}}
 {{--                    </li><!-- End Tab 2 Nav -->--}}
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                    <li class="nav-item col-6 col-md-4 col-lg-3">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
                             <i class="bi bi-bank color-teal"></i>
                             <h4 id="bedspace">Bedspace </h4>
@@ -302,7 +302,7 @@
 {{--                        </a>--}}
 {{--                    </li><!-- End Tab 4 Nav -->--}}
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                    <li class="nav-item col-6 col-md-4 col-lg-3">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
                             <i class="bi bi-diagram-3 color-blue"></i>
                             <h4 id="carrier">Carrier</h4>
@@ -316,21 +316,21 @@
 {{--                        </a>--}}
 {{--                    </li><!-- End Tab 6 Nav -->--}}
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
-                            <i class="bi bi-bounding-box-circles color-cyan"></i>
-                            <h4 id="xpro">Xpro marketplace</h4>
-                        </a>
-                    </li><!-- End Tab 6 Nav -->
+{{--                    <li class="nav-item col-6 col-md-4 col-lg-2">--}}
+{{--                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">--}}
+{{--                            <i class="bi bi-bounding-box-circles color-cyan"></i>--}}
+{{--                            <h4 id="xpro">Xpro marketplace</h4>--}}
+{{--                        </a>--}}
+{{--                    </li><!-- End Tab 6 Nav -->--}}
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-8">
-                            <i class="bi bi-hospital color-indigo"></i>
-                            <h4 id="docsnurs">Docs&Nurs</h4>
-                        </a>
-                    </li><!-- End Tab 6 Nav -->
+{{--                    <li class="nav-item col-6 col-md-4 col-lg-2">--}}
+{{--                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-8">--}}
+{{--                            <i class="bi bi-hospital color-indigo"></i>--}}
+{{--                            <h4 id="docsnurs">Docs&Nurs</h4>--}}
+{{--                        </a>--}}
+{{--                    </li><!-- End Tab 6 Nav -->--}}
 
-                    <li class="nav-item col-6 col-md-4 col-lg-2">
+                    <li class="nav-item col-6 col-md-4 col-lg-3">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-9">
                             <i class="bi bi-book color-teal"></i>
                             <h4 id="myschoolpal">Myschoolpal</h4>
@@ -490,49 +490,49 @@
 {{--                        </div>--}}
 {{--                    </div><!-- End Tab Content 6 -->--}}
 
-                    <div class="tab-pane" id="tab-7">
-                        <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
-                                <h3>Xpro marketplace</h3>
-                                <p>
-                                    Xpro marketplace is a secure and user-friendly freelance platform that makes it easy for freelancers to connect with clients and find the right projects for their skills and interests.
-                                </p>
-                                <p class="fst-italic">
-                                    It gives easy access to companies and individuals that are in need of professionals to be outsourced for.
-                                </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> Access to a global network of clients and projects</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Access to a talented pool of freelancers with a wide range of skills and experience.</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Secure payment system and project management tools</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 order-1 order-lg-2 text-center">
-                                <img src="images/xpro marketplace.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div><!-- End Tab Content 6 -->
+{{--                    <div class="tab-pane" id="tab-7">--}}
+{{--                        <div class="row gy-4">--}}
+{{--                            <div class="col-lg-8 order-2 order-lg-1">--}}
+{{--                                <h3>Xpro marketplace</h3>--}}
+{{--                                <p>--}}
+{{--                                    Xpro marketplace is a secure and user-friendly freelance platform that makes it easy for freelancers to connect with clients and find the right projects for their skills and interests.--}}
+{{--                                </p>--}}
+{{--                                <p class="fst-italic">--}}
+{{--                                    It gives easy access to companies and individuals that are in need of professionals to be outsourced for.--}}
+{{--                                </p>--}}
+{{--                                <ul>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Access to a global network of clients and projects</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Access to a talented pool of freelancers with a wide range of skills and experience.</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Secure payment system and project management tools</li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 order-1 order-lg-2 text-center">--}}
+{{--                                <img src="images/xpro marketplace.jpg" alt="" class="img-fluid">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Tab Content 6 -->--}}
 
-                    <div class="tab-pane" id="tab-8">
-                        <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
-                                <h3>Docs&Nurs</h3>
-                                <p>
-                                    An online healthcare platform to help you consult a doctor at your comfort. It connects patients with healthcare providers and also provides home care services.
-                                </p>
-                                <p class="fst-italic">
-                                    Docs&Nurs aims to provide patients with a convenient, accessible, and cost-effective way to access healthcare services and home care services from the comfort of their homes.
-                                </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> Virtual Consultations, Personal Care, 24/7 online consultations and appointments </li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Prescription Refills, Rehabilitation Services, Affordable pricing and flexible payment options</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Medical Equipment Rental, Nursing Services, Online Medical Records, </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4 order-1 order-lg-2 text-center">
-                                <img src="images/docs&nurs.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div><!-- End Tab Content 6 -->
+{{--                    <div class="tab-pane" id="tab-8">--}}
+{{--                        <div class="row gy-4">--}}
+{{--                            <div class="col-lg-8 order-2 order-lg-1">--}}
+{{--                                <h3>Docs&Nurs</h3>--}}
+{{--                                <p>--}}
+{{--                                    An online healthcare platform to help you consult a doctor at your comfort. It connects patients with healthcare providers and also provides home care services.--}}
+{{--                                </p>--}}
+{{--                                <p class="fst-italic">--}}
+{{--                                    Docs&Nurs aims to provide patients with a convenient, accessible, and cost-effective way to access healthcare services and home care services from the comfort of their homes.--}}
+{{--                                </p>--}}
+{{--                                <ul>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Virtual Consultations, Personal Care, 24/7 online consultations and appointments </li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Prescription Refills, Rehabilitation Services, Affordable pricing and flexible payment options</li>--}}
+{{--                                    <li><i class="bi bi-check-circle-fill"></i> Medical Equipment Rental, Nursing Services, Online Medical Records, </li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 order-1 order-lg-2 text-center">--}}
+{{--                                <img src="images/docs&nurs.jpg" alt="" class="img-fluid">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div><!-- End Tab Content 6 -->--}}
 
                     <div class="tab-pane" id="tab-9">
                         <div class="row gy-4">
@@ -597,7 +597,7 @@
 
                 <div class="row gy-5">
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="service-item">
                             <div class="img">
                                 <img src="images/shop4me banner.jpeg" class="img-fluid" alt="">
@@ -633,7 +633,7 @@
 {{--                        </div>--}}
 {{--                    </div><!-- End Service Item -->--}}
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                         <div class="service-item">
                             <div class="img">
                                 <img src="images/bedspace banner.jpeg" class="img-fluid" alt="">
@@ -670,7 +670,7 @@
 {{--                        </div>--}}
 {{--                    </div><!-- End Service Item -->--}}
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="600">
                         <div class="service-item">
                             <div class="img">
                                 <img src="images/carrier banner.jpeg" class="img-fluid" alt="">
@@ -708,45 +708,45 @@
 {{--                        </div>--}}
 {{--                    </div>--}}
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="800">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="images/xpro banner.jpeg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <!-- <i class="bi bi-chat-square-text"></i> -->
-                                    <img src="images/xpro marketplace.jpg" class="img-fluid" alt="">
-                                </div>
+{{--                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="800">--}}
+{{--                        <div class="service-item">--}}
+{{--                            <div class="img">--}}
+{{--                                <img src="images/xpro banner.jpeg" class="img-fluid" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="details position-relative">--}}
+{{--                                <div class="icon">--}}
+{{--                                    <!-- <i class="bi bi-chat-square-text"></i> -->--}}
+{{--                                    <img src="images/xpro marketplace.jpg" class="img-fluid" alt="">--}}
+{{--                                </div>--}}
 {{--                                <a href="#" class="stretched-link">--}}
-                                    <h3>XPro Marketplace</h3>
+{{--                                    <h3>XPro Marketplace</h3>--}}
 {{--                                </a>--}}
-                                <p>Outsourcing for professionals</p>
+{{--                                <p>Outsourcing for professionals</p>--}}
 {{--                                <a href="#" class="stretched-link"></a>--}}
-                            </div>
-                        </div>
-                    </div>
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="900">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="images/docs&nurs banner.jpeg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <!-- <i class="bi bi-chat-square-text"></i> -->
-                                    <img src="images/docs&nurs.jpg" class="img-fluid" alt="">
-                                </div>
+{{--                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="900">--}}
+{{--                        <div class="service-item">--}}
+{{--                            <div class="img">--}}
+{{--                                <img src="images/docs&nurs banner.jpeg" class="img-fluid" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="details position-relative">--}}
+{{--                                <div class="icon">--}}
+{{--                                    <!-- <i class="bi bi-chat-square-text"></i> -->--}}
+{{--                                    <img src="images/docs&nurs.jpg" class="img-fluid" alt="">--}}
+{{--                                </div>--}}
 {{--                                <a href="#" class="stretched-link">--}}
-                                    <h3>Docs&Nurs</h3>
+{{--                                    <h3>Docs&Nurs</h3>--}}
 {{--                                </a>--}}
-                                <p>Patients & healthcare professionals</p>
+{{--                                <p>Patients & healthcare professionals</p>--}}
 {{--                                <a href="#" class="stretched-link"></a>--}}
-                            </div>
-                        </div>
-                    </div>
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="1000">
+                    <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="1000">
                         <div class="service-item">
                             <div class="img">
                                 <img src="images/myschoolpal banner.jpeg" class="img-fluid" alt="">

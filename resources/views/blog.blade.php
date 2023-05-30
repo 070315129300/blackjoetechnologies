@@ -43,7 +43,7 @@
                     <a href="{{ route('blogdetails', $users->id) }}">{{$users->topic}}</a>
                   </h2>
                   <div class="content">
-                    <p><a href="{{route('blogdetails', $users->id)}}"></a>{{$users->body}}</p>
+                    <p><a href="{{route('blogdetails', $users->id)}}">{{ Str::limit($users->body, 200) }}</a></p>
                   </div>
                   <div class="read-more mt-auto align-self-end">
                     <a href="{{route('blogdetails', $users->id)}}">Read More</a>
