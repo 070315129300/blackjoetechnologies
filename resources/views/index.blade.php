@@ -1084,33 +1084,33 @@
         <!-- End F.A.Q Section -->
 
         <!-- ======= Call To Action Section ======= -->
-        <section id="cta" class="cta">
-            <div class="container" data-aos="zoom-out">
+{{--        <section id="cta" class="cta">--}}
+{{--            <div class="container" data-aos="zoom-out">--}}
 
-                <div class="row g-5">
+{{--                <div class="row g-5">--}}
 
-                    <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-                        <h3>Become A Shareholder Starting From $100,000 </h3>
-                        <p>Welcome to our unlimited world of investing and ownership,
-                            where you can become an integral part of our companies growth and success.
-                        Our robust investment strategies and rigorous risk management protocols ensure
-                            that your investment are positioned for long-term growth and stability.
-                        We extend our relationship with you beyond the initial investment.
-                            Our team of seasoned professionals are committed to providing ongoing
-                        support and guidance throughout your investment journey</p>
-                        <a class="cta-btn align-self-start" href="mailto:info@blackjoegroup@gmail.com">Email Us</a>
-                    </div>
+{{--                    <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">--}}
+{{--                        <h3>Become A Shareholder Starting From $100,000 </h3>--}}
+{{--                        <p>Welcome to our unlimited world of investing and ownership,--}}
+{{--                            where you can become an integral part of our companies growth and success.--}}
+{{--                        Our robust investment strategies and rigorous risk management protocols ensure--}}
+{{--                            that your investment are positioned for long-term growth and stability.--}}
+{{--                        We extend our relationship with you beyond the initial investment.--}}
+{{--                            Our team of seasoned professionals are committed to providing ongoing--}}
+{{--                        support and guidance throughout your investment journey</p>--}}
+{{--                        <a class="cta-btn align-self-start" href="mailto:info@blackjoegroup@gmail.com">Email Us</a>--}}
+{{--                    </div>--}}
 
-                    <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-                        <div class="img">
-                            <img src="images/image22.jpeg" alt="" class="img-fluid">
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">--}}
+{{--                        <div class="img">--}}
+{{--                            <img src="images/image22.jpeg" alt="" class="img-fluid">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
-            </div>
-        </section><!-- End Call To Action Section -->
+{{--            </div>--}}
+{{--        </section><!-- End Call To Action Section -->--}}
 
 
 
