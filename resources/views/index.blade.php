@@ -75,7 +75,8 @@
 
                     <div class="col-lg-5">
                         <div class="about-img">
-                            <img src="images/blackjoeservice.jpeg" class="img-fluid" alt="">
+                            <img src="images/blackjoe_logo-img.png" class="img-fluid" alt="" style="margin-left: auto"  height="" width="70%" >
+                            <img src="images/blackjoe_logo-text.png" class="img-fluid" alt="" height="" width="80%" style="margin-left: auto" >
                         </div>
                     </div>
 
